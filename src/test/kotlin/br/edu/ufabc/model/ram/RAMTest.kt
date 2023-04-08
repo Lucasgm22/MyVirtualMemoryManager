@@ -1,4 +1,4 @@
-package br.edu.ufabc.model
+package br.edu.ufabc.model.ram
 
 import org.junit.jupiter.api.Test
 

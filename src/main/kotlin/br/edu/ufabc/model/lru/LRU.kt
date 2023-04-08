@@ -1,4 +1,4 @@
-package br.edu.ufabc.model
+package br.edu.ufabc.model.lru
 
 class LRU(val entries: ArrayList<Int> = ArrayList(), val frameCount: Int) {
     fun addOnLRU(pageIndex: Int) {

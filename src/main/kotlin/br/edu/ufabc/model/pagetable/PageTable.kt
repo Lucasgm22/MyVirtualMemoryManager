@@ -1,4 +1,4 @@
-package br.edu.ufabc.model
+package br.edu.ufabc.model.pagetable
 
 class PageTable(val entries: ArrayList<PageEntry> = ArrayList(), val pageCount: Int) {
     class PageEntry {

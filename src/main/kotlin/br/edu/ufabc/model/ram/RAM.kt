@@ -1,4 +1,4 @@
-package br.edu.ufabc.model
+package br.edu.ufabc.model.ram
 
 class RAM(val frames: ArrayList<ArrayList<Int>?> = ArrayList(), val frameCount: Int) {
 
