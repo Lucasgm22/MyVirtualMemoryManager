@@ -6,9 +6,15 @@ class RAM(val frames: ArrayList<ArrayList<Int>?> = ArrayList(), val frameCount: 
             frames.add(null)
         }
     }
-    fun addPage(page: ArrayList<Int>, frameIndex: Int = occupiedFrames): Int {
+
+    fun addPage(page: ArrayList<Int>): Int {
+        if (isFull()) throw IllegalStateException("Can not add page, RAM is full")
+        frames[occupiedFrames] = page
+        return occupiedFrames++
+    }
+
+    fun addPage(page: ArrayList<Int>, frameIndex: Int): Int {
         frames[frameIndex] = page
-        if (occupiedFrames < frameCount) occupiedFrames++
 
         return frameIndex
     }

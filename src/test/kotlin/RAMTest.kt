@@ -26,7 +26,7 @@ class RAMTest {
         assertEquals(1, ram.addPage(ArrayList()))
         assertEquals(2, ram.addPage(ArrayList()))
 
-        assertThrows(IndexOutOfBoundsException::class.java) {
+        assertThrows(IllegalStateException::class.java) {
             ram.addPage(ArrayList())
         }
     }
