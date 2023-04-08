@@ -1,3 +1,5 @@
+package br.edu.ufabc.model
+
 class PageTable(val entries: ArrayList<PageEntry> = ArrayList(), val pageCount: Int) {
     class PageEntry {
         var validInvalidBit: Boolean = false

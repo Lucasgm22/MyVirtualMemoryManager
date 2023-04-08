@@ -1,3 +1,5 @@
+package br.edu.ufabc.model
+
 class RAM(val frames: ArrayList<ArrayList<Int>?> = ArrayList(), val frameCount: Int) {
 
     private var occupiedFrames = 0
