@@ -1,14 +1,14 @@
-package br.edu.ufabc.model.nonvolatilememory
+package br.edu.ufabc.model.secondary
 
 import com.beust.klaxon.Klaxon
 
-class NonVolatileMemory {
+class SecondaryMemory {
 
     companion object {
-        private val pagesPath = "non_volatile_memory.json"
+        private const val pagesPath = "secondary_memory.json"
     }
 
-    fun searchPageOnSecondaryMemory(pageIndex: Int): ArrayList<Int> {
+    fun searchPage(pageIndex: Int): ArrayList<Int> {
         println("searchPageOnSecondaryMemory, pageIndex = [${pageIndex}]")
         object {}.javaClass.getResourceAsStream(pagesPath)?.use {
             return Klaxon().parseArray<ArrayList<Int>>(it)?.get(pageIndex)
