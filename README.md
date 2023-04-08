@@ -1,6 +1,6 @@
 # MyVirtualMemoryManager
 
-Projeto para desenvolver a abstração de um Gestor de Memória Virtual.
+Projeto para desenvolver a abstração de um Gestor de Memória Virtual, desenvolvido para a disciplina de Sistemas Operacionais da UFABC, ministrada pelo professor Joao Marcelo Borovina Josko.
 
 - Tradução de endereço
 - Gerenciamento de Page Fault
