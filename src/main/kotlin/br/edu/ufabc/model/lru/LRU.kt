@@ -4,6 +4,8 @@ class LRU(val entries: ArrayList<Int> = ArrayList(), val frameCount: Int) {
     fun addOnLRU(pageIndex: Int) {
 
         if (entries.contains(pageIndex)) {
+            if (entries.last() == pageIndex) return
+
             entries.remove(pageIndex)
             entries.add(pageIndex)
             return
