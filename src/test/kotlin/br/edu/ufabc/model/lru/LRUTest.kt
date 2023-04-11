@@ -17,70 +17,70 @@ class LRUTest {
         lru.addOnLRU(1)
         assertEquals(1, lru.entries.last())
         assertEquals(1, lru.entries.size)
-        assertEquals(1, lru.getLastRecentUsed())
+        assertEquals(1, lru.entries.first())
 
         lru.addOnLRU(2)
         assertEquals(2, lru.entries.last())
         assertEquals(2, lru.entries.size)
-        assertEquals(1, lru.getLastRecentUsed())
+        assertEquals(1, lru.entries.first())
 
         lru.addOnLRU(3)
         assertEquals(3, lru.entries.last())
         assertEquals(3, lru.entries.size)
-        assertEquals(1, lru.getLastRecentUsed())
+        assertEquals(1, lru.entries.first())
 
         lru.addOnLRU(4)
         assertEquals(4, lru.entries.last())
         assertFalse(lru.entries.contains(1))
         assertEquals(3, lru.entries.size)
-        assertEquals(2, lru.getLastRecentUsed())
+        assertEquals(2, lru.entries.first())
 
         lru.addOnLRU(1)
         assertEquals(1, lru.entries.last())
         assertFalse(lru.entries.contains(2))
         assertEquals(3, lru.entries.size)
-        assertEquals(3, lru.getLastRecentUsed())
+        assertEquals(3, lru.entries.first())
 
         lru.addOnLRU(2)
         assertEquals(2, lru.entries.last())
         assertFalse(lru.entries.contains(3))
         assertEquals(3, lru.entries.size)
-        assertEquals(4, lru.getLastRecentUsed())
+        assertEquals(4, lru.entries.first())
 
         lru.addOnLRU(5)
         assertEquals(5, lru.entries.last())
         assertFalse(lru.entries.contains(4))
         assertEquals(3, lru.entries.size)
-        assertEquals(1, lru.getLastRecentUsed())
+        assertEquals(1, lru.entries.first())
 
         lru.addOnLRU(1)
         assertEquals(1, lru.entries.last())
         assertEquals(3, lru.entries.size)
-        assertEquals(2, lru.getLastRecentUsed())
+        assertEquals(2, lru.entries.first())
 
         lru.addOnLRU(2)
         assertEquals(2, lru.entries.last())
         assertEquals(3, lru.entries.size)
-        assertEquals(5, lru.getLastRecentUsed())
+        assertEquals(5, lru.entries.first())
 
         lru.addOnLRU(3)
         assertEquals(3, lru.entries.last())
         assertFalse(lru.entries.contains(5))
         assertEquals(3, lru.entries.size)
-        assertEquals(1, lru.getLastRecentUsed())
+        assertEquals(1, lru.entries.first())
 
 
         lru.addOnLRU(4)
         assertEquals(4, lru.entries.last())
         assertFalse(lru.entries.contains(1))
         assertEquals(3, lru.entries.size)
-        assertEquals(2, lru.getLastRecentUsed())
+        assertEquals(2, lru.entries.first())
 
         lru.addOnLRU(5)
         assertEquals(5, lru.entries.last())
         assertFalse(lru.entries.contains(2))
         assertEquals(3, lru.entries.size)
-        assertEquals(3, lru.getLastRecentUsed())
+        assertEquals(3, lru.entries.first())
 
     }
 }

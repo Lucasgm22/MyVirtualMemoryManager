@@ -9,7 +9,7 @@ class SecondaryMemory {
     }
 
     fun searchPage(pageIndex: Int): ArrayList<Int> {
-        println("searchPageOnSecondaryMemory, pageIndex = [${pageIndex}]")
+        println("[${javaClass.simpleName}] searchPageOnSecondaryMemory, pageIndex = [${pageIndex}]")
         object {}.javaClass.getResourceAsStream(pagesPath)?.use {
             return Klaxon().parseArray<ArrayList<Int>>(it)?.get(pageIndex)
                 ?: throw IllegalArgumentException("Page not found in secondary memory")

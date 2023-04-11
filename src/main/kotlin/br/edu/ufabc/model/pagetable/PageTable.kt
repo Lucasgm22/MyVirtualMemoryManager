@@ -7,7 +7,7 @@ class PageTable(val entries: ArrayList<PageEntry> = ArrayList(), val pageCount: 
     }
 
     init {
-        for (i in 0 until pageCount) {
+        for (i in 1.. pageCount) {
             entries.add(PageEntry())
         }
     }
@@ -23,7 +23,7 @@ class PageTable(val entries: ArrayList<PageEntry> = ArrayList(), val pageCount: 
     }
 
     fun getFrameByPage(pageIndex: Int): Int {
-        if (!getValidBitByPage(pageIndex)) throw IllegalStateException("Page is not in memory, does not have a frame")
+        if (!getValidBitByPage(pageIndex)) throw IllegalStateException("Page $pageIndex is not in memory, does not have a frame")
 
         return entries[pageIndex].frameIndex
     }

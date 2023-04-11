@@ -4,7 +4,7 @@ class RAM(val frames: ArrayList<ArrayList<Int>?> = ArrayList(), val frameCount: 
 
     private var occupiedFrames = 0
     init {
-        for (i in 0 until frameCount) {
+        for (i in 1..frameCount) {
             frames.add(null)
         }
     }
