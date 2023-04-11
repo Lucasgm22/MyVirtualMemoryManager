@@ -6,10 +6,11 @@ import br.edu.ufabc.model.ram.RAM
 import br.edu.ufabc.model.secondary.SecondaryMemory
 
 val offsets = 128
+var pageCount: Int = 256
 var ramFrameCount: Int? = null
 lateinit var ram: RAM
 lateinit var lru: LRU
-var pageCount: Int? = null
+
 lateinit var pageTable: PageTable
 
 val secondaryMemory = SecondaryMemory()
@@ -54,23 +55,20 @@ fun main(args: Array<String>) {
         cpuRequestedPage = ram.frames[frameIndex]
         assert(cpuRequestedPage != null)
         assert(cpuRequestedPage?.get(offset) == 0 || cpuRequestedPage?.get(offset) == 1)
+        // deliver the page to the CPU with offset
     }
 }
 
 private fun init(args: Array<String>) {
-    assert(args.size == 3)
+    assert(args.size == 2)
     ramFrameCount = args[0].toInt()
     assert(ramFrameCount!! > 0)
-    pageCount = args[1].toInt()
-    assert(pageCount!! > 0)
-    amountOfCpuPageRequests = args[2].toInt()
+    amountOfCpuPageRequests = args[1].toInt()
     assert(amountOfCpuPageRequests!! > 0)
 
-
     ram = RAM(frameCount = ramFrameCount!!)
-    pageTable = PageTable(pageCount = pageCount!!)
+    pageTable = PageTable(pageCount = pageCount)
     lru = LRU(frameCount = ramFrameCount!!)
     println("[$simpleName] amount of frames on RAM: ${ram.frameCount}")
-    println("[$simpleName] amount of pages on Virtual Memory: ${pageTable.pageCount}")
     println("[$simpleName] amount of CPU page requests: $amountOfCpuPageRequests")
 }
