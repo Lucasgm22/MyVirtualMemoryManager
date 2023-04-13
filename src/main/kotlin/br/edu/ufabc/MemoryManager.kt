@@ -82,13 +82,14 @@ private fun frameAllocation(pageIndex: Int, offset: Int) {
             println("[$simpleName] There is no free space to allocate page [$pageIndex] in ram, calling pageReplacement algorithm")
             println("[$simpleName] Last recently used is page [$pageIndexLRU]")
             frameIndex = pageTable.getFrameByPage(pageIndexLRU)
-            ram.frames[frameIndex] = requestedPage
             pageTable.removePageEntry(pageIndexLRU)
         } else {
             println("[$simpleName] There is free space to allocate page [$pageIndex] in memory")
             frameIndex = ram.addPage(requestedPage, initialFrame + occupiedFrames)
             occupiedFrames++
         }
+        if (frameIndex < initialFrame || frameIndex >= initialFrame + ramProcessFrameCount!!) throw IllegalStateException("Trying to insert frames outside allocated area")
+        ram.frames[frameIndex] = requestedPage
         pageTable.addFrameOnPageEntry(pageIndex, frameIndex)
     }
     if (ram.frames[frameIndex] == null) throw IllegalStateException("Frame not on RAM")
