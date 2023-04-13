@@ -17,22 +17,11 @@ class RAMTest {
 
     @Test
     fun createRAM() {
-        assertEquals(3, ram.frameAllocation.size)
-        ram.frameAllocation.forEach {
+        assertEquals(3, ram.frames.size)
+        ram.frames.forEach {
             assertNull(it)
         }
     }
-    @Test
-    fun addPage_NoFrameIndexParameter() {
-        assertEquals(0, ram.addPage(ArrayList()))
-        assertEquals(1, ram.addPage(ArrayList()))
-        assertEquals(2, ram.addPage(ArrayList()))
-
-        assertThrows(IllegalStateException::class.java) {
-            ram.addPage(ArrayList())
-        }
-    }
-
     @Test
     fun addPage_FrameIndexParameter() {
         assertEquals(1, ram.addPage(ArrayList(), 1))
@@ -45,14 +34,4 @@ class RAMTest {
         }
     }
 
-    @Test
-    fun isFull() {
-        assertFalse(ram.isFull())
-        ram.addPage(ArrayList())
-        assertFalse(ram.isFull())
-        ram.addPage(ArrayList())
-        ram.addPage(ArrayList())
-
-        assertTrue(ram.isFull())
-    }
 }
