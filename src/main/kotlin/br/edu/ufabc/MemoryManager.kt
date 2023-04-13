@@ -86,8 +86,8 @@ private fun frameAllocation(pageIndex: Int, offset: Int) {
         }
         pageTable.addFrameOnPageEntry(pageIndex, frameIndex)
     }
-    assert(ram.frames[frameIndex] != null)
-    assert(ram.frames[frameIndex]?.get(offset) == 0 || ram.frames[frameIndex]?.get(offset) == 1)
+    if (ram.frames[frameIndex] == null) throw IllegalStateException("Frame not on RAM")
+    if (!(ram.frames[frameIndex]?.get(offset) == 0 || ram.frames[frameIndex]?.get(offset) == 1)) throw IllegalStateException("Frame not on RAM")
     // deliver the page to the CPU with offset
 }
 
