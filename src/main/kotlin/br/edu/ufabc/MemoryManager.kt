@@ -46,11 +46,16 @@ fun main(args: Array<String>) {
         frameAllocation(pageIndex, offset)
         println(horizontalLine)
     }
+    printStats()
+}
+
+private fun printStats() {
     println("STATISTICS")
     println(horizontalLine)
     println("[$simpleName] Amount of CPU page requests: $amountOfCpuPageRequests")
     println("[$simpleName] Amount of frames allocated on RAM: $ramProcessFrameCount")
     println("[$simpleName] Amount of Page Faults: $amountOfPageFaults")
+    println("[$simpleName] Amount of Page Faults (Excluding initial allocation): ${amountOfPageFaults - ramProcessFrameCount!!}")
     println("[$simpleName] Amount of Page Replacements: $amountOfPageReplacements")
     println("[$simpleName] Amount of Searches on Secondary Memory: $amountOfSearchesOnSecondaryMemory")
     println("[$simpleName] Amount of Searches on Secondary Memory (Excluding initial allocation): ${amountOfSearchesOnSecondaryMemory - ramProcessFrameCount!!}")
@@ -93,13 +98,9 @@ private fun frameAllocation(pageIndex: Int, offset: Int) {
 
 private fun frameAllocation() {
     initialFrame = (0 ..  ramFrameSize - ramProcessFrameCount!!).random()
-    println("[$simpleName] Allocation will be on frames [$initialFrame.. ${initialFrame + ramProcessFrameCount!!}] sequentially")
+    println("[$simpleName] Allocation will be on frames [$initialFrame.. ${initialFrame + ramProcessFrameCount!! - 1}] sequentially")
     for (i in 0 until ramProcessFrameCount!!) {
-        val page = secondaryMemory.searchPage(i)
-        lru.addOnLRU(i)
-        ram.frames[initialFrame + i] = page
-        pageTable.addFrameOnPageEntry(i, initialFrame + i)
-        occupiedFrames++
+        frameAllocation(i, 0)
     }
 }
 

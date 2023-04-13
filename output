@@ -1,0 +1,2133 @@
+> Task :compileKotlin UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :inspectClassesForKotlinIC UP-TO-DATE
+
+> Task :run
+------------------------------------------
+CONFIGS
+------------------------------------------
+[MemoryManager] Amount of frames allocated on RAM: 128
+[MemoryManager] Amount of CPU page requests: 256
+------------------------------------------
+INITIAL ALLOCATION OF PAGES SEQUENTIALLY
+------------------------------------------
+[MemoryManager] Allocation will be on frames [115.. 242] sequentially
+[MemoryManager] Page [0] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [0]
+[MemoryManager] There is free space to allocate page [0] in memory
+[{RAM}] Added on frame [115]
+[PageTable] Added page [0] in memory at frame [115]
+[MemoryManager] Page [1] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [1]
+[MemoryManager] There is free space to allocate page [1] in memory
+[{RAM}] Added on frame [116]
+[PageTable] Added page [1] in memory at frame [116]
+[MemoryManager] Page [2] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [2]
+[MemoryManager] There is free space to allocate page [2] in memory
+[{RAM}] Added on frame [117]
+[PageTable] Added page [2] in memory at frame [117]
+[MemoryManager] Page [3] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [3]
+[MemoryManager] There is free space to allocate page [3] in memory
+[{RAM}] Added on frame [118]
+[PageTable] Added page [3] in memory at frame [118]
+[MemoryManager] Page [4] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [4]
+[MemoryManager] There is free space to allocate page [4] in memory
+[{RAM}] Added on frame [119]
+[PageTable] Added page [4] in memory at frame [119]
+[MemoryManager] Page [5] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [5]
+[MemoryManager] There is free space to allocate page [5] in memory
+[{RAM}] Added on frame [120]
+[PageTable] Added page [5] in memory at frame [120]
+[MemoryManager] Page [6] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [6]
+[MemoryManager] There is free space to allocate page [6] in memory
+[{RAM}] Added on frame [121]
+[PageTable] Added page [6] in memory at frame [121]
+[MemoryManager] Page [7] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [7]
+[MemoryManager] There is free space to allocate page [7] in memory
+[{RAM}] Added on frame [122]
+[PageTable] Added page [7] in memory at frame [122]
+[MemoryManager] Page [8] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [8]
+[MemoryManager] There is free space to allocate page [8] in memory
+[{RAM}] Added on frame [123]
+[PageTable] Added page [8] in memory at frame [123]
+[MemoryManager] Page [9] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [9]
+[MemoryManager] There is free space to allocate page [9] in memory
+[{RAM}] Added on frame [124]
+[PageTable] Added page [9] in memory at frame [124]
+[MemoryManager] Page [10] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [10]
+[MemoryManager] There is free space to allocate page [10] in memory
+[{RAM}] Added on frame [125]
+[PageTable] Added page [10] in memory at frame [125]
+[MemoryManager] Page [11] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [11]
+[MemoryManager] There is free space to allocate page [11] in memory
+[{RAM}] Added on frame [126]
+[PageTable] Added page [11] in memory at frame [126]
+[MemoryManager] Page [12] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [12]
+[MemoryManager] There is free space to allocate page [12] in memory
+[{RAM}] Added on frame [127]
+[PageTable] Added page [12] in memory at frame [127]
+[MemoryManager] Page [13] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [13]
+[MemoryManager] There is free space to allocate page [13] in memory
+[{RAM}] Added on frame [128]
+[PageTable] Added page [13] in memory at frame [128]
+[MemoryManager] Page [14] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [14]
+[MemoryManager] There is free space to allocate page [14] in memory
+[{RAM}] Added on frame [129]
+[PageTable] Added page [14] in memory at frame [129]
+[MemoryManager] Page [15] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [15]
+[MemoryManager] There is free space to allocate page [15] in memory
+[{RAM}] Added on frame [130]
+[PageTable] Added page [15] in memory at frame [130]
+[MemoryManager] Page [16] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [16]
+[MemoryManager] There is free space to allocate page [16] in memory
+[{RAM}] Added on frame [131]
+[PageTable] Added page [16] in memory at frame [131]
+[MemoryManager] Page [17] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [17]
+[MemoryManager] There is free space to allocate page [17] in memory
+[{RAM}] Added on frame [132]
+[PageTable] Added page [17] in memory at frame [132]
+[MemoryManager] Page [18] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [18]
+[MemoryManager] There is free space to allocate page [18] in memory
+[{RAM}] Added on frame [133]
+[PageTable] Added page [18] in memory at frame [133]
+[MemoryManager] Page [19] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [19]
+[MemoryManager] There is free space to allocate page [19] in memory
+[{RAM}] Added on frame [134]
+[PageTable] Added page [19] in memory at frame [134]
+[MemoryManager] Page [20] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [20]
+[MemoryManager] There is free space to allocate page [20] in memory
+[{RAM}] Added on frame [135]
+[PageTable] Added page [20] in memory at frame [135]
+[MemoryManager] Page [21] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [21]
+[MemoryManager] There is free space to allocate page [21] in memory
+[{RAM}] Added on frame [136]
+[PageTable] Added page [21] in memory at frame [136]
+[MemoryManager] Page [22] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [22]
+[MemoryManager] There is free space to allocate page [22] in memory
+[{RAM}] Added on frame [137]
+[PageTable] Added page [22] in memory at frame [137]
+[MemoryManager] Page [23] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [23]
+[MemoryManager] There is free space to allocate page [23] in memory
+[{RAM}] Added on frame [138]
+[PageTable] Added page [23] in memory at frame [138]
+[MemoryManager] Page [24] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [24]
+[MemoryManager] There is free space to allocate page [24] in memory
+[{RAM}] Added on frame [139]
+[PageTable] Added page [24] in memory at frame [139]
+[MemoryManager] Page [25] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [25]
+[MemoryManager] There is free space to allocate page [25] in memory
+[{RAM}] Added on frame [140]
+[PageTable] Added page [25] in memory at frame [140]
+[MemoryManager] Page [26] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [26]
+[MemoryManager] There is free space to allocate page [26] in memory
+[{RAM}] Added on frame [141]
+[PageTable] Added page [26] in memory at frame [141]
+[MemoryManager] Page [27] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [27]
+[MemoryManager] There is free space to allocate page [27] in memory
+[{RAM}] Added on frame [142]
+[PageTable] Added page [27] in memory at frame [142]
+[MemoryManager] Page [28] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [28]
+[MemoryManager] There is free space to allocate page [28] in memory
+[{RAM}] Added on frame [143]
+[PageTable] Added page [28] in memory at frame [143]
+[MemoryManager] Page [29] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [29]
+[MemoryManager] There is free space to allocate page [29] in memory
+[{RAM}] Added on frame [144]
+[PageTable] Added page [29] in memory at frame [144]
+[MemoryManager] Page [30] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [30]
+[MemoryManager] There is free space to allocate page [30] in memory
+[{RAM}] Added on frame [145]
+[PageTable] Added page [30] in memory at frame [145]
+[MemoryManager] Page [31] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [31]
+[MemoryManager] There is free space to allocate page [31] in memory
+[{RAM}] Added on frame [146]
+[PageTable] Added page [31] in memory at frame [146]
+[MemoryManager] Page [32] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [32]
+[MemoryManager] There is free space to allocate page [32] in memory
+[{RAM}] Added on frame [147]
+[PageTable] Added page [32] in memory at frame [147]
+[MemoryManager] Page [33] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [33]
+[MemoryManager] There is free space to allocate page [33] in memory
+[{RAM}] Added on frame [148]
+[PageTable] Added page [33] in memory at frame [148]
+[MemoryManager] Page [34] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [34]
+[MemoryManager] There is free space to allocate page [34] in memory
+[{RAM}] Added on frame [149]
+[PageTable] Added page [34] in memory at frame [149]
+[MemoryManager] Page [35] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [35]
+[MemoryManager] There is free space to allocate page [35] in memory
+[{RAM}] Added on frame [150]
+[PageTable] Added page [35] in memory at frame [150]
+[MemoryManager] Page [36] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [36]
+[MemoryManager] There is free space to allocate page [36] in memory
+[{RAM}] Added on frame [151]
+[PageTable] Added page [36] in memory at frame [151]
+[MemoryManager] Page [37] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [37]
+[MemoryManager] There is free space to allocate page [37] in memory
+[{RAM}] Added on frame [152]
+[PageTable] Added page [37] in memory at frame [152]
+[MemoryManager] Page [38] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [38]
+[MemoryManager] There is free space to allocate page [38] in memory
+[{RAM}] Added on frame [153]
+[PageTable] Added page [38] in memory at frame [153]
+[MemoryManager] Page [39] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [39]
+[MemoryManager] There is free space to allocate page [39] in memory
+[{RAM}] Added on frame [154]
+[PageTable] Added page [39] in memory at frame [154]
+[MemoryManager] Page [40] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [40]
+[MemoryManager] There is free space to allocate page [40] in memory
+[{RAM}] Added on frame [155]
+[PageTable] Added page [40] in memory at frame [155]
+[MemoryManager] Page [41] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [41]
+[MemoryManager] There is free space to allocate page [41] in memory
+[{RAM}] Added on frame [156]
+[PageTable] Added page [41] in memory at frame [156]
+[MemoryManager] Page [42] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [42]
+[MemoryManager] There is free space to allocate page [42] in memory
+[{RAM}] Added on frame [157]
+[PageTable] Added page [42] in memory at frame [157]
+[MemoryManager] Page [43] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [43]
+[MemoryManager] There is free space to allocate page [43] in memory
+[{RAM}] Added on frame [158]
+[PageTable] Added page [43] in memory at frame [158]
+[MemoryManager] Page [44] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [44]
+[MemoryManager] There is free space to allocate page [44] in memory
+[{RAM}] Added on frame [159]
+[PageTable] Added page [44] in memory at frame [159]
+[MemoryManager] Page [45] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [45]
+[MemoryManager] There is free space to allocate page [45] in memory
+[{RAM}] Added on frame [160]
+[PageTable] Added page [45] in memory at frame [160]
+[MemoryManager] Page [46] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [46]
+[MemoryManager] There is free space to allocate page [46] in memory
+[{RAM}] Added on frame [161]
+[PageTable] Added page [46] in memory at frame [161]
+[MemoryManager] Page [47] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [47]
+[MemoryManager] There is free space to allocate page [47] in memory
+[{RAM}] Added on frame [162]
+[PageTable] Added page [47] in memory at frame [162]
+[MemoryManager] Page [48] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [48]
+[MemoryManager] There is free space to allocate page [48] in memory
+[{RAM}] Added on frame [163]
+[PageTable] Added page [48] in memory at frame [163]
+[MemoryManager] Page [49] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [49]
+[MemoryManager] There is free space to allocate page [49] in memory
+[{RAM}] Added on frame [164]
+[PageTable] Added page [49] in memory at frame [164]
+[MemoryManager] Page [50] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [50]
+[MemoryManager] There is free space to allocate page [50] in memory
+[{RAM}] Added on frame [165]
+[PageTable] Added page [50] in memory at frame [165]
+[MemoryManager] Page [51] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [51]
+[MemoryManager] There is free space to allocate page [51] in memory
+[{RAM}] Added on frame [166]
+[PageTable] Added page [51] in memory at frame [166]
+[MemoryManager] Page [52] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [52]
+[MemoryManager] There is free space to allocate page [52] in memory
+[{RAM}] Added on frame [167]
+[PageTable] Added page [52] in memory at frame [167]
+[MemoryManager] Page [53] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [53]
+[MemoryManager] There is free space to allocate page [53] in memory
+[{RAM}] Added on frame [168]
+[PageTable] Added page [53] in memory at frame [168]
+[MemoryManager] Page [54] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [54]
+[MemoryManager] There is free space to allocate page [54] in memory
+[{RAM}] Added on frame [169]
+[PageTable] Added page [54] in memory at frame [169]
+[MemoryManager] Page [55] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [55]
+[MemoryManager] There is free space to allocate page [55] in memory
+[{RAM}] Added on frame [170]
+[PageTable] Added page [55] in memory at frame [170]
+[MemoryManager] Page [56] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [56]
+[MemoryManager] There is free space to allocate page [56] in memory
+[{RAM}] Added on frame [171]
+[PageTable] Added page [56] in memory at frame [171]
+[MemoryManager] Page [57] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [57]
+[MemoryManager] There is free space to allocate page [57] in memory
+[{RAM}] Added on frame [172]
+[PageTable] Added page [57] in memory at frame [172]
+[MemoryManager] Page [58] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [58]
+[MemoryManager] There is free space to allocate page [58] in memory
+[{RAM}] Added on frame [173]
+[PageTable] Added page [58] in memory at frame [173]
+[MemoryManager] Page [59] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [59]
+[MemoryManager] There is free space to allocate page [59] in memory
+[{RAM}] Added on frame [174]
+[PageTable] Added page [59] in memory at frame [174]
+[MemoryManager] Page [60] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [60]
+[MemoryManager] There is free space to allocate page [60] in memory
+[{RAM}] Added on frame [175]
+[PageTable] Added page [60] in memory at frame [175]
+[MemoryManager] Page [61] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [61]
+[MemoryManager] There is free space to allocate page [61] in memory
+[{RAM}] Added on frame [176]
+[PageTable] Added page [61] in memory at frame [176]
+[MemoryManager] Page [62] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [62]
+[MemoryManager] There is free space to allocate page [62] in memory
+[{RAM}] Added on frame [177]
+[PageTable] Added page [62] in memory at frame [177]
+[MemoryManager] Page [63] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [63]
+[MemoryManager] There is free space to allocate page [63] in memory
+[{RAM}] Added on frame [178]
+[PageTable] Added page [63] in memory at frame [178]
+[MemoryManager] Page [64] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [64]
+[MemoryManager] There is free space to allocate page [64] in memory
+[{RAM}] Added on frame [179]
+[PageTable] Added page [64] in memory at frame [179]
+[MemoryManager] Page [65] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [65]
+[MemoryManager] There is free space to allocate page [65] in memory
+[{RAM}] Added on frame [180]
+[PageTable] Added page [65] in memory at frame [180]
+[MemoryManager] Page [66] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [66]
+[MemoryManager] There is free space to allocate page [66] in memory
+[{RAM}] Added on frame [181]
+[PageTable] Added page [66] in memory at frame [181]
+[MemoryManager] Page [67] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [67]
+[MemoryManager] There is free space to allocate page [67] in memory
+[{RAM}] Added on frame [182]
+[PageTable] Added page [67] in memory at frame [182]
+[MemoryManager] Page [68] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [68]
+[MemoryManager] There is free space to allocate page [68] in memory
+[{RAM}] Added on frame [183]
+[PageTable] Added page [68] in memory at frame [183]
+[MemoryManager] Page [69] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [69]
+[MemoryManager] There is free space to allocate page [69] in memory
+[{RAM}] Added on frame [184]
+[PageTable] Added page [69] in memory at frame [184]
+[MemoryManager] Page [70] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [70]
+[MemoryManager] There is free space to allocate page [70] in memory
+[{RAM}] Added on frame [185]
+[PageTable] Added page [70] in memory at frame [185]
+[MemoryManager] Page [71] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [71]
+[MemoryManager] There is free space to allocate page [71] in memory
+[{RAM}] Added on frame [186]
+[PageTable] Added page [71] in memory at frame [186]
+[MemoryManager] Page [72] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [72]
+[MemoryManager] There is free space to allocate page [72] in memory
+[{RAM}] Added on frame [187]
+[PageTable] Added page [72] in memory at frame [187]
+[MemoryManager] Page [73] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [73]
+[MemoryManager] There is free space to allocate page [73] in memory
+[{RAM}] Added on frame [188]
+[PageTable] Added page [73] in memory at frame [188]
+[MemoryManager] Page [74] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [74]
+[MemoryManager] There is free space to allocate page [74] in memory
+[{RAM}] Added on frame [189]
+[PageTable] Added page [74] in memory at frame [189]
+[MemoryManager] Page [75] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [75]
+[MemoryManager] There is free space to allocate page [75] in memory
+[{RAM}] Added on frame [190]
+[PageTable] Added page [75] in memory at frame [190]
+[MemoryManager] Page [76] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [76]
+[MemoryManager] There is free space to allocate page [76] in memory
+[{RAM}] Added on frame [191]
+[PageTable] Added page [76] in memory at frame [191]
+[MemoryManager] Page [77] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [77]
+[MemoryManager] There is free space to allocate page [77] in memory
+[{RAM}] Added on frame [192]
+[PageTable] Added page [77] in memory at frame [192]
+[MemoryManager] Page [78] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [78]
+[MemoryManager] There is free space to allocate page [78] in memory
+[{RAM}] Added on frame [193]
+[PageTable] Added page [78] in memory at frame [193]
+[MemoryManager] Page [79] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [79]
+[MemoryManager] There is free space to allocate page [79] in memory
+[{RAM}] Added on frame [194]
+[PageTable] Added page [79] in memory at frame [194]
+[MemoryManager] Page [80] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [80]
+[MemoryManager] There is free space to allocate page [80] in memory
+[{RAM}] Added on frame [195]
+[PageTable] Added page [80] in memory at frame [195]
+[MemoryManager] Page [81] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [81]
+[MemoryManager] There is free space to allocate page [81] in memory
+[{RAM}] Added on frame [196]
+[PageTable] Added page [81] in memory at frame [196]
+[MemoryManager] Page [82] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [82]
+[MemoryManager] There is free space to allocate page [82] in memory
+[{RAM}] Added on frame [197]
+[PageTable] Added page [82] in memory at frame [197]
+[MemoryManager] Page [83] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [83]
+[MemoryManager] There is free space to allocate page [83] in memory
+[{RAM}] Added on frame [198]
+[PageTable] Added page [83] in memory at frame [198]
+[MemoryManager] Page [84] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [84]
+[MemoryManager] There is free space to allocate page [84] in memory
+[{RAM}] Added on frame [199]
+[PageTable] Added page [84] in memory at frame [199]
+[MemoryManager] Page [85] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [85]
+[MemoryManager] There is free space to allocate page [85] in memory
+[{RAM}] Added on frame [200]
+[PageTable] Added page [85] in memory at frame [200]
+[MemoryManager] Page [86] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [86]
+[MemoryManager] There is free space to allocate page [86] in memory
+[{RAM}] Added on frame [201]
+[PageTable] Added page [86] in memory at frame [201]
+[MemoryManager] Page [87] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [87]
+[MemoryManager] There is free space to allocate page [87] in memory
+[{RAM}] Added on frame [202]
+[PageTable] Added page [87] in memory at frame [202]
+[MemoryManager] Page [88] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [88]
+[MemoryManager] There is free space to allocate page [88] in memory
+[{RAM}] Added on frame [203]
+[PageTable] Added page [88] in memory at frame [203]
+[MemoryManager] Page [89] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [89]
+[MemoryManager] There is free space to allocate page [89] in memory
+[{RAM}] Added on frame [204]
+[PageTable] Added page [89] in memory at frame [204]
+[MemoryManager] Page [90] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [90]
+[MemoryManager] There is free space to allocate page [90] in memory
+[{RAM}] Added on frame [205]
+[PageTable] Added page [90] in memory at frame [205]
+[MemoryManager] Page [91] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [91]
+[MemoryManager] There is free space to allocate page [91] in memory
+[{RAM}] Added on frame [206]
+[PageTable] Added page [91] in memory at frame [206]
+[MemoryManager] Page [92] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [92]
+[MemoryManager] There is free space to allocate page [92] in memory
+[{RAM}] Added on frame [207]
+[PageTable] Added page [92] in memory at frame [207]
+[MemoryManager] Page [93] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [93]
+[MemoryManager] There is free space to allocate page [93] in memory
+[{RAM}] Added on frame [208]
+[PageTable] Added page [93] in memory at frame [208]
+[MemoryManager] Page [94] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [94]
+[MemoryManager] There is free space to allocate page [94] in memory
+[{RAM}] Added on frame [209]
+[PageTable] Added page [94] in memory at frame [209]
+[MemoryManager] Page [95] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [95]
+[MemoryManager] There is free space to allocate page [95] in memory
+[{RAM}] Added on frame [210]
+[PageTable] Added page [95] in memory at frame [210]
+[MemoryManager] Page [96] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [96]
+[MemoryManager] There is free space to allocate page [96] in memory
+[{RAM}] Added on frame [211]
+[PageTable] Added page [96] in memory at frame [211]
+[MemoryManager] Page [97] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [97]
+[MemoryManager] There is free space to allocate page [97] in memory
+[{RAM}] Added on frame [212]
+[PageTable] Added page [97] in memory at frame [212]
+[MemoryManager] Page [98] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [98]
+[MemoryManager] There is free space to allocate page [98] in memory
+[{RAM}] Added on frame [213]
+[PageTable] Added page [98] in memory at frame [213]
+[MemoryManager] Page [99] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [99]
+[MemoryManager] There is free space to allocate page [99] in memory
+[{RAM}] Added on frame [214]
+[PageTable] Added page [99] in memory at frame [214]
+[MemoryManager] Page [100] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [100]
+[MemoryManager] There is free space to allocate page [100] in memory
+[{RAM}] Added on frame [215]
+[PageTable] Added page [100] in memory at frame [215]
+[MemoryManager] Page [101] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [101]
+[MemoryManager] There is free space to allocate page [101] in memory
+[{RAM}] Added on frame [216]
+[PageTable] Added page [101] in memory at frame [216]
+[MemoryManager] Page [102] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [102]
+[MemoryManager] There is free space to allocate page [102] in memory
+[{RAM}] Added on frame [217]
+[PageTable] Added page [102] in memory at frame [217]
+[MemoryManager] Page [103] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [103]
+[MemoryManager] There is free space to allocate page [103] in memory
+[{RAM}] Added on frame [218]
+[PageTable] Added page [103] in memory at frame [218]
+[MemoryManager] Page [104] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [104]
+[MemoryManager] There is free space to allocate page [104] in memory
+[{RAM}] Added on frame [219]
+[PageTable] Added page [104] in memory at frame [219]
+[MemoryManager] Page [105] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [105]
+[MemoryManager] There is free space to allocate page [105] in memory
+[{RAM}] Added on frame [220]
+[PageTable] Added page [105] in memory at frame [220]
+[MemoryManager] Page [106] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [106]
+[MemoryManager] There is free space to allocate page [106] in memory
+[{RAM}] Added on frame [221]
+[PageTable] Added page [106] in memory at frame [221]
+[MemoryManager] Page [107] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [107]
+[MemoryManager] There is free space to allocate page [107] in memory
+[{RAM}] Added on frame [222]
+[PageTable] Added page [107] in memory at frame [222]
+[MemoryManager] Page [108] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [108]
+[MemoryManager] There is free space to allocate page [108] in memory
+[{RAM}] Added on frame [223]
+[PageTable] Added page [108] in memory at frame [223]
+[MemoryManager] Page [109] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [109]
+[MemoryManager] There is free space to allocate page [109] in memory
+[{RAM}] Added on frame [224]
+[PageTable] Added page [109] in memory at frame [224]
+[MemoryManager] Page [110] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [110]
+[MemoryManager] There is free space to allocate page [110] in memory
+[{RAM}] Added on frame [225]
+[PageTable] Added page [110] in memory at frame [225]
+[MemoryManager] Page [111] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [111]
+[MemoryManager] There is free space to allocate page [111] in memory
+[{RAM}] Added on frame [226]
+[PageTable] Added page [111] in memory at frame [226]
+[MemoryManager] Page [112] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [112]
+[MemoryManager] There is free space to allocate page [112] in memory
+[{RAM}] Added on frame [227]
+[PageTable] Added page [112] in memory at frame [227]
+[MemoryManager] Page [113] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [113]
+[MemoryManager] There is free space to allocate page [113] in memory
+[{RAM}] Added on frame [228]
+[PageTable] Added page [113] in memory at frame [228]
+[MemoryManager] Page [114] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [114]
+[MemoryManager] There is free space to allocate page [114] in memory
+[{RAM}] Added on frame [229]
+[PageTable] Added page [114] in memory at frame [229]
+[MemoryManager] Page [115] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [115]
+[MemoryManager] There is free space to allocate page [115] in memory
+[{RAM}] Added on frame [230]
+[PageTable] Added page [115] in memory at frame [230]
+[MemoryManager] Page [116] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [116]
+[MemoryManager] There is free space to allocate page [116] in memory
+[{RAM}] Added on frame [231]
+[PageTable] Added page [116] in memory at frame [231]
+[MemoryManager] Page [117] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [117]
+[MemoryManager] There is free space to allocate page [117] in memory
+[{RAM}] Added on frame [232]
+[PageTable] Added page [117] in memory at frame [232]
+[MemoryManager] Page [118] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [118]
+[MemoryManager] There is free space to allocate page [118] in memory
+[{RAM}] Added on frame [233]
+[PageTable] Added page [118] in memory at frame [233]
+[MemoryManager] Page [119] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [119]
+[MemoryManager] There is free space to allocate page [119] in memory
+[{RAM}] Added on frame [234]
+[PageTable] Added page [119] in memory at frame [234]
+[MemoryManager] Page [120] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [120]
+[MemoryManager] There is free space to allocate page [120] in memory
+[{RAM}] Added on frame [235]
+[PageTable] Added page [120] in memory at frame [235]
+[MemoryManager] Page [121] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [121]
+[MemoryManager] There is free space to allocate page [121] in memory
+[{RAM}] Added on frame [236]
+[PageTable] Added page [121] in memory at frame [236]
+[MemoryManager] Page [122] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [122]
+[MemoryManager] There is free space to allocate page [122] in memory
+[{RAM}] Added on frame [237]
+[PageTable] Added page [122] in memory at frame [237]
+[MemoryManager] Page [123] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [123]
+[MemoryManager] There is free space to allocate page [123] in memory
+[{RAM}] Added on frame [238]
+[PageTable] Added page [123] in memory at frame [238]
+[MemoryManager] Page [124] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [124]
+[MemoryManager] There is free space to allocate page [124] in memory
+[{RAM}] Added on frame [239]
+[PageTable] Added page [124] in memory at frame [239]
+[MemoryManager] Page [125] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [125]
+[MemoryManager] There is free space to allocate page [125] in memory
+[{RAM}] Added on frame [240]
+[PageTable] Added page [125] in memory at frame [240]
+[MemoryManager] Page [126] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [126]
+[MemoryManager] There is free space to allocate page [126] in memory
+[{RAM}] Added on frame [241]
+[PageTable] Added page [126] in memory at frame [241]
+[MemoryManager] Page [127] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [127]
+[MemoryManager] There is free space to allocate page [127] in memory
+[{RAM}] Added on frame [242]
+[PageTable] Added page [127] in memory at frame [242]
+------------------------------------------
+CPU REQUESTS
+------------------------------------------
+[MemoryManager] CPU request [1], page [149], offset [0]
+[MemoryManager] Page [149] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [149]
+[MemoryManager] There is no free space to allocate page [149] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [0]
+[PageTable] pageReplacement, removing [0] of memory at frame [115]
+[PageTable] Added page [149] in memory at frame [115]
+------------------------------------------
+[MemoryManager] CPU request [2], page [139], offset [36]
+[MemoryManager] Page [139] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [139]
+[MemoryManager] There is no free space to allocate page [139] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [1]
+[PageTable] pageReplacement, removing [1] of memory at frame [116]
+[PageTable] Added page [139] in memory at frame [116]
+------------------------------------------
+[MemoryManager] CPU request [3], page [83], offset [23]
+[MemoryManager] Page [83] is on memory at frame [198]
+------------------------------------------
+[MemoryManager] CPU request [4], page [107], offset [28]
+[MemoryManager] Page [107] is on memory at frame [222]
+------------------------------------------
+[MemoryManager] CPU request [5], page [136], offset [106]
+[MemoryManager] Page [136] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [136]
+[MemoryManager] There is no free space to allocate page [136] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [2]
+[PageTable] pageReplacement, removing [2] of memory at frame [117]
+[PageTable] Added page [136] in memory at frame [117]
+------------------------------------------
+[MemoryManager] CPU request [6], page [150], offset [70]
+[MemoryManager] Page [150] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [150]
+[MemoryManager] There is no free space to allocate page [150] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [3]
+[PageTable] pageReplacement, removing [3] of memory at frame [118]
+[PageTable] Added page [150] in memory at frame [118]
+------------------------------------------
+[MemoryManager] CPU request [7], page [37], offset [111]
+[MemoryManager] Page [37] is on memory at frame [152]
+------------------------------------------
+[MemoryManager] CPU request [8], page [123], offset [85]
+[MemoryManager] Page [123] is on memory at frame [238]
+------------------------------------------
+[MemoryManager] CPU request [9], page [185], offset [95]
+[MemoryManager] Page [185] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [185]
+[MemoryManager] There is no free space to allocate page [185] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [4]
+[PageTable] pageReplacement, removing [4] of memory at frame [119]
+[PageTable] Added page [185] in memory at frame [119]
+------------------------------------------
+[MemoryManager] CPU request [10], page [164], offset [105]
+[MemoryManager] Page [164] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [164]
+[MemoryManager] There is no free space to allocate page [164] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [5]
+[PageTable] pageReplacement, removing [5] of memory at frame [120]
+[PageTable] Added page [164] in memory at frame [120]
+------------------------------------------
+[MemoryManager] CPU request [11], page [250], offset [34]
+[MemoryManager] Page [250] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [250]
+[MemoryManager] There is no free space to allocate page [250] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [6]
+[PageTable] pageReplacement, removing [6] of memory at frame [121]
+[PageTable] Added page [250] in memory at frame [121]
+------------------------------------------
+[MemoryManager] CPU request [12], page [207], offset [109]
+[MemoryManager] Page [207] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [207]
+[MemoryManager] There is no free space to allocate page [207] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [7]
+[PageTable] pageReplacement, removing [7] of memory at frame [122]
+[PageTable] Added page [207] in memory at frame [122]
+------------------------------------------
+[MemoryManager] CPU request [13], page [6], offset [73]
+[MemoryManager] Page [6] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [6]
+[MemoryManager] There is no free space to allocate page [6] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [8]
+[PageTable] pageReplacement, removing [8] of memory at frame [123]
+[PageTable] Added page [6] in memory at frame [123]
+------------------------------------------
+[MemoryManager] CPU request [14], page [183], offset [44]
+[MemoryManager] Page [183] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [183]
+[MemoryManager] There is no free space to allocate page [183] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [9]
+[PageTable] pageReplacement, removing [9] of memory at frame [124]
+[PageTable] Added page [183] in memory at frame [124]
+------------------------------------------
+[MemoryManager] CPU request [15], page [218], offset [106]
+[MemoryManager] Page [218] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [218]
+[MemoryManager] There is no free space to allocate page [218] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [10]
+[PageTable] pageReplacement, removing [10] of memory at frame [125]
+[PageTable] Added page [218] in memory at frame [125]
+------------------------------------------
+[MemoryManager] CPU request [16], page [53], offset [13]
+[MemoryManager] Page [53] is on memory at frame [168]
+------------------------------------------
+[MemoryManager] CPU request [17], page [196], offset [66]
+[MemoryManager] Page [196] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [196]
+[MemoryManager] There is no free space to allocate page [196] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [11]
+[PageTable] pageReplacement, removing [11] of memory at frame [126]
+[PageTable] Added page [196] in memory at frame [126]
+------------------------------------------
+[MemoryManager] CPU request [18], page [250], offset [119]
+[MemoryManager] Page [250] is on memory at frame [121]
+------------------------------------------
+[MemoryManager] CPU request [19], page [81], offset [72]
+[MemoryManager] Page [81] is on memory at frame [196]
+------------------------------------------
+[MemoryManager] CPU request [20], page [99], offset [40]
+[MemoryManager] Page [99] is on memory at frame [214]
+------------------------------------------
+[MemoryManager] CPU request [21], page [114], offset [47]
+[MemoryManager] Page [114] is on memory at frame [229]
+------------------------------------------
+[MemoryManager] CPU request [22], page [153], offset [53]
+[MemoryManager] Page [153] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [153]
+[MemoryManager] There is no free space to allocate page [153] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [12]
+[PageTable] pageReplacement, removing [12] of memory at frame [127]
+[PageTable] Added page [153] in memory at frame [127]
+------------------------------------------
+[MemoryManager] CPU request [23], page [254], offset [111]
+[MemoryManager] Page [254] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [254]
+[MemoryManager] There is no free space to allocate page [254] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [13]
+[PageTable] pageReplacement, removing [13] of memory at frame [128]
+[PageTable] Added page [254] in memory at frame [128]
+------------------------------------------
+[MemoryManager] CPU request [24], page [55], offset [62]
+[MemoryManager] Page [55] is on memory at frame [170]
+------------------------------------------
+[MemoryManager] CPU request [25], page [36], offset [78]
+[MemoryManager] Page [36] is on memory at frame [151]
+------------------------------------------
+[MemoryManager] CPU request [26], page [250], offset [52]
+[MemoryManager] Page [250] is on memory at frame [121]
+------------------------------------------
+[MemoryManager] CPU request [27], page [233], offset [120]
+[MemoryManager] Page [233] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [233]
+[MemoryManager] There is no free space to allocate page [233] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [14]
+[PageTable] pageReplacement, removing [14] of memory at frame [129]
+[PageTable] Added page [233] in memory at frame [129]
+------------------------------------------
+[MemoryManager] CPU request [28], page [255], offset [106]
+[MemoryManager] Page [255] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [255]
+[MemoryManager] There is no free space to allocate page [255] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [15]
+[PageTable] pageReplacement, removing [15] of memory at frame [130]
+[PageTable] Added page [255] in memory at frame [130]
+------------------------------------------
+[MemoryManager] CPU request [29], page [39], offset [94]
+[MemoryManager] Page [39] is on memory at frame [154]
+------------------------------------------
+[MemoryManager] CPU request [30], page [172], offset [65]
+[MemoryManager] Page [172] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [172]
+[MemoryManager] There is no free space to allocate page [172] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [16]
+[PageTable] pageReplacement, removing [16] of memory at frame [131]
+[PageTable] Added page [172] in memory at frame [131]
+------------------------------------------
+[MemoryManager] CPU request [31], page [16], offset [94]
+[MemoryManager] Page [16] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [16]
+[MemoryManager] There is no free space to allocate page [16] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [17]
+[PageTable] pageReplacement, removing [17] of memory at frame [132]
+[PageTable] Added page [16] in memory at frame [132]
+------------------------------------------
+[MemoryManager] CPU request [32], page [152], offset [27]
+[MemoryManager] Page [152] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [152]
+[MemoryManager] There is no free space to allocate page [152] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [18]
+[PageTable] pageReplacement, removing [18] of memory at frame [133]
+[PageTable] Added page [152] in memory at frame [133]
+------------------------------------------
+[MemoryManager] CPU request [33], page [249], offset [35]
+[MemoryManager] Page [249] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [249]
+[MemoryManager] There is no free space to allocate page [249] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [19]
+[PageTable] pageReplacement, removing [19] of memory at frame [134]
+[PageTable] Added page [249] in memory at frame [134]
+------------------------------------------
+[MemoryManager] CPU request [34], page [38], offset [58]
+[MemoryManager] Page [38] is on memory at frame [153]
+------------------------------------------
+[MemoryManager] CPU request [35], page [170], offset [46]
+[MemoryManager] Page [170] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [170]
+[MemoryManager] There is no free space to allocate page [170] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [20]
+[PageTable] pageReplacement, removing [20] of memory at frame [135]
+[PageTable] Added page [170] in memory at frame [135]
+------------------------------------------
+[MemoryManager] CPU request [36], page [248], offset [23]
+[MemoryManager] Page [248] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [248]
+[MemoryManager] There is no free space to allocate page [248] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [21]
+[PageTable] pageReplacement, removing [21] of memory at frame [136]
+[PageTable] Added page [248] in memory at frame [136]
+------------------------------------------
+[MemoryManager] CPU request [37], page [46], offset [85]
+[MemoryManager] Page [46] is on memory at frame [161]
+------------------------------------------
+[MemoryManager] CPU request [38], page [82], offset [39]
+[MemoryManager] Page [82] is on memory at frame [197]
+------------------------------------------
+[MemoryManager] CPU request [39], page [10], offset [68]
+[MemoryManager] Page [10] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [10]
+[MemoryManager] There is no free space to allocate page [10] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [22]
+[PageTable] pageReplacement, removing [22] of memory at frame [137]
+[PageTable] Added page [10] in memory at frame [137]
+------------------------------------------
+[MemoryManager] CPU request [40], page [123], offset [111]
+[MemoryManager] Page [123] is on memory at frame [238]
+------------------------------------------
+[MemoryManager] CPU request [41], page [7], offset [40]
+[MemoryManager] Page [7] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [7]
+[MemoryManager] There is no free space to allocate page [7] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [23]
+[PageTable] pageReplacement, removing [23] of memory at frame [138]
+[PageTable] Added page [7] in memory at frame [138]
+------------------------------------------
+[MemoryManager] CPU request [42], page [183], offset [100]
+[MemoryManager] Page [183] is on memory at frame [124]
+------------------------------------------
+[MemoryManager] CPU request [43], page [59], offset [66]
+[MemoryManager] Page [59] is on memory at frame [174]
+------------------------------------------
+[MemoryManager] CPU request [44], page [24], offset [58]
+[MemoryManager] Page [24] is on memory at frame [139]
+------------------------------------------
+[MemoryManager] CPU request [45], page [137], offset [123]
+[MemoryManager] Page [137] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [137]
+[MemoryManager] There is no free space to allocate page [137] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [25]
+[PageTable] pageReplacement, removing [25] of memory at frame [140]
+[PageTable] Added page [137] in memory at frame [140]
+------------------------------------------
+[MemoryManager] CPU request [46], page [129], offset [51]
+[MemoryManager] Page [129] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [129]
+[MemoryManager] There is no free space to allocate page [129] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [26]
+[PageTable] pageReplacement, removing [26] of memory at frame [141]
+[PageTable] Added page [129] in memory at frame [141]
+------------------------------------------
+[MemoryManager] CPU request [47], page [101], offset [74]
+[MemoryManager] Page [101] is on memory at frame [216]
+------------------------------------------
+[MemoryManager] CPU request [48], page [77], offset [15]
+[MemoryManager] Page [77] is on memory at frame [192]
+------------------------------------------
+[MemoryManager] CPU request [49], page [140], offset [101]
+[MemoryManager] Page [140] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [140]
+[MemoryManager] There is no free space to allocate page [140] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [27]
+[PageTable] pageReplacement, removing [27] of memory at frame [142]
+[PageTable] Added page [140] in memory at frame [142]
+------------------------------------------
+[MemoryManager] CPU request [50], page [106], offset [42]
+[MemoryManager] Page [106] is on memory at frame [221]
+------------------------------------------
+[MemoryManager] CPU request [51], page [244], offset [125]
+[MemoryManager] Page [244] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [244]
+[MemoryManager] There is no free space to allocate page [244] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [28]
+[PageTable] pageReplacement, removing [28] of memory at frame [143]
+[PageTable] Added page [244] in memory at frame [143]
+------------------------------------------
+[MemoryManager] CPU request [52], page [69], offset [119]
+[MemoryManager] Page [69] is on memory at frame [184]
+------------------------------------------
+[MemoryManager] CPU request [53], page [44], offset [5]
+[MemoryManager] Page [44] is on memory at frame [159]
+------------------------------------------
+[MemoryManager] CPU request [54], page [239], offset [64]
+[MemoryManager] Page [239] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [239]
+[MemoryManager] There is no free space to allocate page [239] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [29]
+[PageTable] pageReplacement, removing [29] of memory at frame [144]
+[PageTable] Added page [239] in memory at frame [144]
+------------------------------------------
+[MemoryManager] CPU request [55], page [11], offset [66]
+[MemoryManager] Page [11] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [11]
+[MemoryManager] There is no free space to allocate page [11] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [30]
+[PageTable] pageReplacement, removing [30] of memory at frame [145]
+[PageTable] Added page [11] in memory at frame [145]
+------------------------------------------
+[MemoryManager] CPU request [56], page [101], offset [77]
+[MemoryManager] Page [101] is on memory at frame [216]
+------------------------------------------
+[MemoryManager] CPU request [57], page [205], offset [61]
+[MemoryManager] Page [205] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [205]
+[MemoryManager] There is no free space to allocate page [205] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [31]
+[PageTable] pageReplacement, removing [31] of memory at frame [146]
+[PageTable] Added page [205] in memory at frame [146]
+------------------------------------------
+[MemoryManager] CPU request [58], page [22], offset [9]
+[MemoryManager] Page [22] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [22]
+[MemoryManager] There is no free space to allocate page [22] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [32]
+[PageTable] pageReplacement, removing [32] of memory at frame [147]
+[PageTable] Added page [22] in memory at frame [147]
+------------------------------------------
+[MemoryManager] CPU request [59], page [10], offset [115]
+[MemoryManager] Page [10] is on memory at frame [137]
+------------------------------------------
+[MemoryManager] CPU request [60], page [83], offset [42]
+[MemoryManager] Page [83] is on memory at frame [198]
+------------------------------------------
+[MemoryManager] CPU request [61], page [200], offset [50]
+[MemoryManager] Page [200] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [200]
+[MemoryManager] There is no free space to allocate page [200] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [33]
+[PageTable] pageReplacement, removing [33] of memory at frame [148]
+[PageTable] Added page [200] in memory at frame [148]
+------------------------------------------
+[MemoryManager] CPU request [62], page [76], offset [126]
+[MemoryManager] Page [76] is on memory at frame [191]
+------------------------------------------
+[MemoryManager] CPU request [63], page [187], offset [114]
+[MemoryManager] Page [187] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [187]
+[MemoryManager] There is no free space to allocate page [187] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [34]
+[PageTable] pageReplacement, removing [34] of memory at frame [149]
+[PageTable] Added page [187] in memory at frame [149]
+------------------------------------------
+[MemoryManager] CPU request [64], page [89], offset [19]
+[MemoryManager] Page [89] is on memory at frame [204]
+------------------------------------------
+[MemoryManager] CPU request [65], page [1], offset [11]
+[MemoryManager] Page [1] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [1]
+[MemoryManager] There is no free space to allocate page [1] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [35]
+[PageTable] pageReplacement, removing [35] of memory at frame [150]
+[PageTable] Added page [1] in memory at frame [150]
+------------------------------------------
+[MemoryManager] CPU request [66], page [178], offset [19]
+[MemoryManager] Page [178] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [178]
+[MemoryManager] There is no free space to allocate page [178] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [40]
+[PageTable] pageReplacement, removing [40] of memory at frame [155]
+[PageTable] Added page [178] in memory at frame [155]
+------------------------------------------
+[MemoryManager] CPU request [67], page [178], offset [100]
+[MemoryManager] Page [178] is on memory at frame [155]
+------------------------------------------
+[MemoryManager] CPU request [68], page [127], offset [79]
+[MemoryManager] Page [127] is on memory at frame [242]
+------------------------------------------
+[MemoryManager] CPU request [69], page [161], offset [54]
+[MemoryManager] Page [161] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [161]
+[MemoryManager] There is no free space to allocate page [161] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [41]
+[PageTable] pageReplacement, removing [41] of memory at frame [156]
+[PageTable] Added page [161] in memory at frame [156]
+------------------------------------------
+[MemoryManager] CPU request [70], page [195], offset [21]
+[MemoryManager] Page [195] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [195]
+[MemoryManager] There is no free space to allocate page [195] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [42]
+[PageTable] pageReplacement, removing [42] of memory at frame [157]
+[PageTable] Added page [195] in memory at frame [157]
+------------------------------------------
+[MemoryManager] CPU request [71], page [157], offset [120]
+[MemoryManager] Page [157] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [157]
+[MemoryManager] There is no free space to allocate page [157] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [43]
+[PageTable] pageReplacement, removing [43] of memory at frame [158]
+[PageTable] Added page [157] in memory at frame [158]
+------------------------------------------
+[MemoryManager] CPU request [72], page [160], offset [13]
+[MemoryManager] Page [160] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [160]
+[MemoryManager] There is no free space to allocate page [160] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [45]
+[PageTable] pageReplacement, removing [45] of memory at frame [160]
+[PageTable] Added page [160] in memory at frame [160]
+------------------------------------------
+[MemoryManager] CPU request [73], page [222], offset [95]
+[MemoryManager] Page [222] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [222]
+[MemoryManager] There is no free space to allocate page [222] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [47]
+[PageTable] pageReplacement, removing [47] of memory at frame [162]
+[PageTable] Added page [222] in memory at frame [162]
+------------------------------------------
+[MemoryManager] CPU request [74], page [182], offset [115]
+[MemoryManager] Page [182] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [182]
+[MemoryManager] There is no free space to allocate page [182] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [48]
+[PageTable] pageReplacement, removing [48] of memory at frame [163]
+[PageTable] Added page [182] in memory at frame [163]
+------------------------------------------
+[MemoryManager] CPU request [75], page [249], offset [36]
+[MemoryManager] Page [249] is on memory at frame [134]
+------------------------------------------
+[MemoryManager] CPU request [76], page [224], offset [57]
+[MemoryManager] Page [224] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [224]
+[MemoryManager] There is no free space to allocate page [224] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [49]
+[PageTable] pageReplacement, removing [49] of memory at frame [164]
+[PageTable] Added page [224] in memory at frame [164]
+------------------------------------------
+[MemoryManager] CPU request [77], page [55], offset [58]
+[MemoryManager] Page [55] is on memory at frame [170]
+------------------------------------------
+[MemoryManager] CPU request [78], page [209], offset [4]
+[MemoryManager] Page [209] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [209]
+[MemoryManager] There is no free space to allocate page [209] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [50]
+[PageTable] pageReplacement, removing [50] of memory at frame [165]
+[PageTable] Added page [209] in memory at frame [165]
+------------------------------------------
+[MemoryManager] CPU request [79], page [53], offset [31]
+[MemoryManager] Page [53] is on memory at frame [168]
+------------------------------------------
+[MemoryManager] CPU request [80], page [130], offset [8]
+[MemoryManager] Page [130] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [130]
+[MemoryManager] There is no free space to allocate page [130] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [51]
+[PageTable] pageReplacement, removing [51] of memory at frame [166]
+[PageTable] Added page [130] in memory at frame [166]
+------------------------------------------
+[MemoryManager] CPU request [81], page [33], offset [28]
+[MemoryManager] Page [33] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [33]
+[MemoryManager] There is no free space to allocate page [33] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [52]
+[PageTable] pageReplacement, removing [52] of memory at frame [167]
+[PageTable] Added page [33] in memory at frame [167]
+------------------------------------------
+[MemoryManager] CPU request [82], page [193], offset [82]
+[MemoryManager] Page [193] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [193]
+[MemoryManager] There is no free space to allocate page [193] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [54]
+[PageTable] pageReplacement, removing [54] of memory at frame [169]
+[PageTable] Added page [193] in memory at frame [169]
+------------------------------------------
+[MemoryManager] CPU request [83], page [208], offset [17]
+[MemoryManager] Page [208] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [208]
+[MemoryManager] There is no free space to allocate page [208] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [56]
+[PageTable] pageReplacement, removing [56] of memory at frame [171]
+[PageTable] Added page [208] in memory at frame [171]
+------------------------------------------
+[MemoryManager] CPU request [84], page [181], offset [22]
+[MemoryManager] Page [181] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [181]
+[MemoryManager] There is no free space to allocate page [181] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [57]
+[PageTable] pageReplacement, removing [57] of memory at frame [172]
+[PageTable] Added page [181] in memory at frame [172]
+------------------------------------------
+[MemoryManager] CPU request [85], page [3], offset [99]
+[MemoryManager] Page [3] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [3]
+[MemoryManager] There is no free space to allocate page [3] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [58]
+[PageTable] pageReplacement, removing [58] of memory at frame [173]
+[PageTable] Added page [3] in memory at frame [173]
+------------------------------------------
+[MemoryManager] CPU request [86], page [163], offset [93]
+[MemoryManager] Page [163] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [163]
+[MemoryManager] There is no free space to allocate page [163] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [60]
+[PageTable] pageReplacement, removing [60] of memory at frame [175]
+[PageTable] Added page [163] in memory at frame [175]
+------------------------------------------
+[MemoryManager] CPU request [87], page [223], offset [100]
+[MemoryManager] Page [223] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [223]
+[MemoryManager] There is no free space to allocate page [223] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [61]
+[PageTable] pageReplacement, removing [61] of memory at frame [176]
+[PageTable] Added page [223] in memory at frame [176]
+------------------------------------------
+[MemoryManager] CPU request [88], page [64], offset [125]
+[MemoryManager] Page [64] is on memory at frame [179]
+------------------------------------------
+[MemoryManager] CPU request [89], page [88], offset [117]
+[MemoryManager] Page [88] is on memory at frame [203]
+------------------------------------------
+[MemoryManager] CPU request [90], page [162], offset [88]
+[MemoryManager] Page [162] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [162]
+[MemoryManager] There is no free space to allocate page [162] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [62]
+[PageTable] pageReplacement, removing [62] of memory at frame [177]
+[PageTable] Added page [162] in memory at frame [177]
+------------------------------------------
+[MemoryManager] CPU request [91], page [95], offset [86]
+[MemoryManager] Page [95] is on memory at frame [210]
+------------------------------------------
+[MemoryManager] CPU request [92], page [227], offset [113]
+[MemoryManager] Page [227] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [227]
+[MemoryManager] There is no free space to allocate page [227] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [63]
+[PageTable] pageReplacement, removing [63] of memory at frame [178]
+[PageTable] Added page [227] in memory at frame [178]
+------------------------------------------
+[MemoryManager] CPU request [93], page [201], offset [88]
+[MemoryManager] Page [201] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [201]
+[MemoryManager] There is no free space to allocate page [201] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [65]
+[PageTable] pageReplacement, removing [65] of memory at frame [180]
+[PageTable] Added page [201] in memory at frame [180]
+------------------------------------------
+[MemoryManager] CPU request [94], page [245], offset [30]
+[MemoryManager] Page [245] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [245]
+[MemoryManager] There is no free space to allocate page [245] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [66]
+[PageTable] pageReplacement, removing [66] of memory at frame [181]
+[PageTable] Added page [245] in memory at frame [181]
+------------------------------------------
+[MemoryManager] CPU request [95], page [81], offset [38]
+[MemoryManager] Page [81] is on memory at frame [196]
+------------------------------------------
+[MemoryManager] CPU request [96], page [140], offset [79]
+[MemoryManager] Page [140] is on memory at frame [142]
+------------------------------------------
+[MemoryManager] CPU request [97], page [226], offset [35]
+[MemoryManager] Page [226] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [226]
+[MemoryManager] There is no free space to allocate page [226] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [67]
+[PageTable] pageReplacement, removing [67] of memory at frame [182]
+[PageTable] Added page [226] in memory at frame [182]
+------------------------------------------
+[MemoryManager] CPU request [98], page [66], offset [51]
+[MemoryManager] Page [66] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [66]
+[MemoryManager] There is no free space to allocate page [66] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [68]
+[PageTable] pageReplacement, removing [68] of memory at frame [183]
+[PageTable] Added page [66] in memory at frame [183]
+------------------------------------------
+[MemoryManager] CPU request [99], page [225], offset [69]
+[MemoryManager] Page [225] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [225]
+[MemoryManager] There is no free space to allocate page [225] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [70]
+[PageTable] pageReplacement, removing [70] of memory at frame [185]
+[PageTable] Added page [225] in memory at frame [185]
+------------------------------------------
+[MemoryManager] CPU request [100], page [224], offset [77]
+[MemoryManager] Page [224] is on memory at frame [164]
+------------------------------------------
+[MemoryManager] CPU request [101], page [48], offset [43]
+[MemoryManager] Page [48] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [48]
+[MemoryManager] There is no free space to allocate page [48] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [71]
+[PageTable] pageReplacement, removing [71] of memory at frame [186]
+[PageTable] Added page [48] in memory at frame [186]
+------------------------------------------
+[MemoryManager] CPU request [102], page [225], offset [54]
+[MemoryManager] Page [225] is on memory at frame [185]
+------------------------------------------
+[MemoryManager] CPU request [103], page [145], offset [10]
+[MemoryManager] Page [145] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [145]
+[MemoryManager] There is no free space to allocate page [145] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [72]
+[PageTable] pageReplacement, removing [72] of memory at frame [187]
+[PageTable] Added page [145] in memory at frame [187]
+------------------------------------------
+[MemoryManager] CPU request [104], page [16], offset [8]
+[MemoryManager] Page [16] is on memory at frame [132]
+------------------------------------------
+[MemoryManager] CPU request [105], page [251], offset [12]
+[MemoryManager] Page [251] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [251]
+[MemoryManager] There is no free space to allocate page [251] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [73]
+[PageTable] pageReplacement, removing [73] of memory at frame [188]
+[PageTable] Added page [251] in memory at frame [188]
+------------------------------------------
+[MemoryManager] CPU request [106], page [227], offset [30]
+[MemoryManager] Page [227] is on memory at frame [178]
+------------------------------------------
+[MemoryManager] CPU request [107], page [32], offset [119]
+[MemoryManager] Page [32] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [32]
+[MemoryManager] There is no free space to allocate page [32] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [74]
+[PageTable] pageReplacement, removing [74] of memory at frame [189]
+[PageTable] Added page [32] in memory at frame [189]
+------------------------------------------
+[MemoryManager] CPU request [108], page [38], offset [10]
+[MemoryManager] Page [38] is on memory at frame [153]
+------------------------------------------
+[MemoryManager] CPU request [109], page [239], offset [31]
+[MemoryManager] Page [239] is on memory at frame [144]
+------------------------------------------
+[MemoryManager] CPU request [110], page [173], offset [56]
+[MemoryManager] Page [173] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [173]
+[MemoryManager] There is no free space to allocate page [173] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [75]
+[PageTable] pageReplacement, removing [75] of memory at frame [190]
+[PageTable] Added page [173] in memory at frame [190]
+------------------------------------------
+[MemoryManager] CPU request [111], page [92], offset [58]
+[MemoryManager] Page [92] is on memory at frame [207]
+------------------------------------------
+[MemoryManager] CPU request [112], page [12], offset [43]
+[MemoryManager] Page [12] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [12]
+[MemoryManager] There is no free space to allocate page [12] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [78]
+[PageTable] pageReplacement, removing [78] of memory at frame [193]
+[PageTable] Added page [12] in memory at frame [193]
+------------------------------------------
+[MemoryManager] CPU request [113], page [127], offset [10]
+[MemoryManager] Page [127] is on memory at frame [242]
+------------------------------------------
+[MemoryManager] CPU request [114], page [182], offset [51]
+[MemoryManager] Page [182] is on memory at frame [163]
+------------------------------------------
+[MemoryManager] CPU request [115], page [118], offset [97]
+[MemoryManager] Page [118] is on memory at frame [233]
+------------------------------------------
+[MemoryManager] CPU request [116], page [58], offset [105]
+[MemoryManager] Page [58] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [58]
+[MemoryManager] There is no free space to allocate page [58] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [79]
+[PageTable] pageReplacement, removing [79] of memory at frame [194]
+[PageTable] Added page [58] in memory at frame [194]
+------------------------------------------
+[MemoryManager] CPU request [117], page [153], offset [2]
+[MemoryManager] Page [153] is on memory at frame [127]
+------------------------------------------
+[MemoryManager] CPU request [118], page [42], offset [127]
+[MemoryManager] Page [42] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [42]
+[MemoryManager] There is no free space to allocate page [42] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [80]
+[PageTable] pageReplacement, removing [80] of memory at frame [195]
+[PageTable] Added page [42] in memory at frame [195]
+------------------------------------------
+[MemoryManager] CPU request [119], page [134], offset [78]
+[MemoryManager] Page [134] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [134]
+[MemoryManager] There is no free space to allocate page [134] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [84]
+[PageTable] pageReplacement, removing [84] of memory at frame [199]
+[PageTable] Added page [134] in memory at frame [199]
+------------------------------------------
+[MemoryManager] CPU request [120], page [206], offset [41]
+[MemoryManager] Page [206] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [206]
+[MemoryManager] There is no free space to allocate page [206] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [85]
+[PageTable] pageReplacement, removing [85] of memory at frame [200]
+[PageTable] Added page [206] in memory at frame [200]
+------------------------------------------
+[MemoryManager] CPU request [121], page [14], offset [56]
+[MemoryManager] Page [14] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [14]
+[MemoryManager] There is no free space to allocate page [14] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [86]
+[PageTable] pageReplacement, removing [86] of memory at frame [201]
+[PageTable] Added page [14] in memory at frame [201]
+------------------------------------------
+[MemoryManager] CPU request [122], page [234], offset [37]
+[MemoryManager] Page [234] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [234]
+[MemoryManager] There is no free space to allocate page [234] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [87]
+[PageTable] pageReplacement, removing [87] of memory at frame [202]
+[PageTable] Added page [234] in memory at frame [202]
+------------------------------------------
+[MemoryManager] CPU request [123], page [170], offset [12]
+[MemoryManager] Page [170] is on memory at frame [135]
+------------------------------------------
+[MemoryManager] CPU request [124], page [34], offset [72]
+[MemoryManager] Page [34] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [34]
+[MemoryManager] There is no free space to allocate page [34] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [90]
+[PageTable] pageReplacement, removing [90] of memory at frame [205]
+[PageTable] Added page [34] in memory at frame [205]
+------------------------------------------
+[MemoryManager] CPU request [125], page [161], offset [95]
+[MemoryManager] Page [161] is on memory at frame [156]
+------------------------------------------
+[MemoryManager] CPU request [126], page [37], offset [43]
+[MemoryManager] Page [37] is on memory at frame [152]
+------------------------------------------
+[MemoryManager] CPU request [127], page [74], offset [97]
+[MemoryManager] Page [74] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [74]
+[MemoryManager] There is no free space to allocate page [74] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [91]
+[PageTable] pageReplacement, removing [91] of memory at frame [206]
+[PageTable] Added page [74] in memory at frame [206]
+------------------------------------------
+[MemoryManager] CPU request [128], page [65], offset [23]
+[MemoryManager] Page [65] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [65]
+[MemoryManager] There is no free space to allocate page [65] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [93]
+[PageTable] pageReplacement, removing [93] of memory at frame [208]
+[PageTable] Added page [65] in memory at frame [208]
+------------------------------------------
+[MemoryManager] CPU request [129], page [67], offset [38]
+[MemoryManager] Page [67] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [67]
+[MemoryManager] There is no free space to allocate page [67] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [94]
+[PageTable] pageReplacement, removing [94] of memory at frame [209]
+[PageTable] Added page [67] in memory at frame [209]
+------------------------------------------
+[MemoryManager] CPU request [130], page [243], offset [10]
+[MemoryManager] Page [243] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [243]
+[MemoryManager] There is no free space to allocate page [243] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [96]
+[PageTable] pageReplacement, removing [96] of memory at frame [211]
+[PageTable] Added page [243] in memory at frame [211]
+------------------------------------------
+[MemoryManager] CPU request [131], page [182], offset [85]
+[MemoryManager] Page [182] is on memory at frame [163]
+------------------------------------------
+[MemoryManager] CPU request [132], page [132], offset [51]
+[MemoryManager] Page [132] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [132]
+[MemoryManager] There is no free space to allocate page [132] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [97]
+[PageTable] pageReplacement, removing [97] of memory at frame [212]
+[PageTable] Added page [132] in memory at frame [212]
+------------------------------------------
+[MemoryManager] CPU request [133], page [156], offset [66]
+[MemoryManager] Page [156] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [156]
+[MemoryManager] There is no free space to allocate page [156] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [98]
+[PageTable] pageReplacement, removing [98] of memory at frame [213]
+[PageTable] Added page [156] in memory at frame [213]
+------------------------------------------
+[MemoryManager] CPU request [134], page [77], offset [99]
+[MemoryManager] Page [77] is on memory at frame [192]
+------------------------------------------
+[MemoryManager] CPU request [135], page [224], offset [70]
+[MemoryManager] Page [224] is on memory at frame [164]
+------------------------------------------
+[MemoryManager] CPU request [136], page [238], offset [56]
+[MemoryManager] Page [238] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [238]
+[MemoryManager] There is no free space to allocate page [238] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [100]
+[PageTable] pageReplacement, removing [100] of memory at frame [215]
+[PageTable] Added page [238] in memory at frame [215]
+------------------------------------------
+[MemoryManager] CPU request [137], page [145], offset [20]
+[MemoryManager] Page [145] is on memory at frame [187]
+------------------------------------------
+[MemoryManager] CPU request [138], page [155], offset [60]
+[MemoryManager] Page [155] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [155]
+[MemoryManager] There is no free space to allocate page [155] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [102]
+[PageTable] pageReplacement, removing [102] of memory at frame [217]
+[PageTable] Added page [155] in memory at frame [217]
+------------------------------------------
+[MemoryManager] CPU request [139], page [193], offset [100]
+[MemoryManager] Page [193] is on memory at frame [169]
+------------------------------------------
+[MemoryManager] CPU request [140], page [211], offset [41]
+[MemoryManager] Page [211] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [211]
+[MemoryManager] There is no free space to allocate page [211] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [103]
+[PageTable] pageReplacement, removing [103] of memory at frame [218]
+[PageTable] Added page [211] in memory at frame [218]
+------------------------------------------
+[MemoryManager] CPU request [141], page [197], offset [16]
+[MemoryManager] Page [197] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [197]
+[MemoryManager] There is no free space to allocate page [197] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [104]
+[PageTable] pageReplacement, removing [104] of memory at frame [219]
+[PageTable] Added page [197] in memory at frame [219]
+------------------------------------------
+[MemoryManager] CPU request [142], page [100], offset [106]
+[MemoryManager] Page [100] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [100]
+[MemoryManager] There is no free space to allocate page [100] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [105]
+[PageTable] pageReplacement, removing [105] of memory at frame [220]
+[PageTable] Added page [100] in memory at frame [220]
+------------------------------------------
+[MemoryManager] CPU request [143], page [149], offset [88]
+[MemoryManager] Page [149] is on memory at frame [115]
+------------------------------------------
+[MemoryManager] CPU request [144], page [44], offset [70]
+[MemoryManager] Page [44] is on memory at frame [159]
+------------------------------------------
+[MemoryManager] CPU request [145], page [116], offset [57]
+[MemoryManager] Page [116] is on memory at frame [231]
+------------------------------------------
+[MemoryManager] CPU request [146], page [229], offset [5]
+[MemoryManager] Page [229] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [229]
+[MemoryManager] There is no free space to allocate page [229] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [108]
+[PageTable] pageReplacement, removing [108] of memory at frame [223]
+[PageTable] Added page [229] in memory at frame [223]
+------------------------------------------
+[MemoryManager] CPU request [147], page [102], offset [56]
+[MemoryManager] Page [102] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [102]
+[MemoryManager] There is no free space to allocate page [102] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [109]
+[PageTable] pageReplacement, removing [109] of memory at frame [224]
+[PageTable] Added page [102] in memory at frame [224]
+------------------------------------------
+[MemoryManager] CPU request [148], page [14], offset [30]
+[MemoryManager] Page [14] is on memory at frame [201]
+------------------------------------------
+[MemoryManager] CPU request [149], page [182], offset [91]
+[MemoryManager] Page [182] is on memory at frame [163]
+------------------------------------------
+[MemoryManager] CPU request [150], page [226], offset [47]
+[MemoryManager] Page [226] is on memory at frame [182]
+------------------------------------------
+[MemoryManager] CPU request [151], page [207], offset [23]
+[MemoryManager] Page [207] is on memory at frame [122]
+------------------------------------------
+[MemoryManager] CPU request [152], page [75], offset [80]
+[MemoryManager] Page [75] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [75]
+[MemoryManager] There is no free space to allocate page [75] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [110]
+[PageTable] pageReplacement, removing [110] of memory at frame [225]
+[PageTable] Added page [75] in memory at frame [225]
+------------------------------------------
+[MemoryManager] CPU request [153], page [244], offset [11]
+[MemoryManager] Page [244] is on memory at frame [143]
+------------------------------------------
+[MemoryManager] CPU request [154], page [187], offset [7]
+[MemoryManager] Page [187] is on memory at frame [149]
+------------------------------------------
+[MemoryManager] CPU request [155], page [204], offset [44]
+[MemoryManager] Page [204] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [204]
+[MemoryManager] There is no free space to allocate page [204] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [111]
+[PageTable] pageReplacement, removing [111] of memory at frame [226]
+[PageTable] Added page [204] in memory at frame [226]
+------------------------------------------
+[MemoryManager] CPU request [156], page [126], offset [32]
+[MemoryManager] Page [126] is on memory at frame [241]
+------------------------------------------
+[MemoryManager] CPU request [157], page [251], offset [91]
+[MemoryManager] Page [251] is on memory at frame [188]
+------------------------------------------
+[MemoryManager] CPU request [158], page [50], offset [22]
+[MemoryManager] Page [50] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [50]
+[MemoryManager] There is no free space to allocate page [50] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [112]
+[PageTable] pageReplacement, removing [112] of memory at frame [227]
+[PageTable] Added page [50] in memory at frame [227]
+------------------------------------------
+[MemoryManager] CPU request [159], page [41], offset [30]
+[MemoryManager] Page [41] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [41]
+[MemoryManager] There is no free space to allocate page [41] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [113]
+[PageTable] pageReplacement, removing [113] of memory at frame [228]
+[PageTable] Added page [41] in memory at frame [228]
+------------------------------------------
+[MemoryManager] CPU request [160], page [216], offset [83]
+[MemoryManager] Page [216] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [216]
+[MemoryManager] There is no free space to allocate page [216] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [115]
+[PageTable] pageReplacement, removing [115] of memory at frame [230]
+[PageTable] Added page [216] in memory at frame [230]
+------------------------------------------
+[MemoryManager] CPU request [161], page [161], offset [25]
+[MemoryManager] Page [161] is on memory at frame [156]
+------------------------------------------
+[MemoryManager] CPU request [162], page [106], offset [11]
+[MemoryManager] Page [106] is on memory at frame [221]
+------------------------------------------
+[MemoryManager] CPU request [163], page [89], offset [43]
+[MemoryManager] Page [89] is on memory at frame [204]
+------------------------------------------
+[MemoryManager] CPU request [164], page [178], offset [49]
+[MemoryManager] Page [178] is on memory at frame [155]
+------------------------------------------
+[MemoryManager] CPU request [165], page [40], offset [125]
+[MemoryManager] Page [40] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [40]
+[MemoryManager] There is no free space to allocate page [40] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [117]
+[PageTable] pageReplacement, removing [117] of memory at frame [232]
+[PageTable] Added page [40] in memory at frame [232]
+------------------------------------------
+[MemoryManager] CPU request [166], page [84], offset [58]
+[MemoryManager] Page [84] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [84]
+[MemoryManager] There is no free space to allocate page [84] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [119]
+[PageTable] pageReplacement, removing [119] of memory at frame [234]
+[PageTable] Added page [84] in memory at frame [234]
+------------------------------------------
+[MemoryManager] CPU request [167], page [91], offset [43]
+[MemoryManager] Page [91] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [91]
+[MemoryManager] There is no free space to allocate page [91] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [120]
+[PageTable] pageReplacement, removing [120] of memory at frame [235]
+[PageTable] Added page [91] in memory at frame [235]
+------------------------------------------
+[MemoryManager] CPU request [168], page [209], offset [19]
+[MemoryManager] Page [209] is on memory at frame [165]
+------------------------------------------
+[MemoryManager] CPU request [169], page [36], offset [9]
+[MemoryManager] Page [36] is on memory at frame [151]
+------------------------------------------
+[MemoryManager] CPU request [170], page [35], offset [17]
+[MemoryManager] Page [35] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [35]
+[MemoryManager] There is no free space to allocate page [35] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [121]
+[PageTable] pageReplacement, removing [121] of memory at frame [236]
+[PageTable] Added page [35] in memory at frame [236]
+------------------------------------------
+[MemoryManager] CPU request [171], page [250], offset [7]
+[MemoryManager] Page [250] is on memory at frame [121]
+------------------------------------------
+[MemoryManager] CPU request [172], page [100], offset [62]
+[MemoryManager] Page [100] is on memory at frame [220]
+------------------------------------------
+[MemoryManager] CPU request [173], page [199], offset [84]
+[MemoryManager] Page [199] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [199]
+[MemoryManager] There is no free space to allocate page [199] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [122]
+[PageTable] pageReplacement, removing [122] of memory at frame [237]
+[PageTable] Added page [199] in memory at frame [237]
+------------------------------------------
+[MemoryManager] CPU request [174], page [248], offset [52]
+[MemoryManager] Page [248] is on memory at frame [136]
+------------------------------------------
+[MemoryManager] CPU request [175], page [246], offset [75]
+[MemoryManager] Page [246] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [246]
+[MemoryManager] There is no free space to allocate page [246] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [124]
+[PageTable] pageReplacement, removing [124] of memory at frame [239]
+[PageTable] Added page [246] in memory at frame [239]
+------------------------------------------
+[MemoryManager] CPU request [176], page [204], offset [31]
+[MemoryManager] Page [204] is on memory at frame [226]
+------------------------------------------
+[MemoryManager] CPU request [177], page [33], offset [26]
+[MemoryManager] Page [33] is on memory at frame [167]
+------------------------------------------
+[MemoryManager] CPU request [178], page [73], offset [17]
+[MemoryManager] Page [73] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [73]
+[MemoryManager] There is no free space to allocate page [73] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [125]
+[PageTable] pageReplacement, removing [125] of memory at frame [240]
+[PageTable] Added page [73] in memory at frame [240]
+------------------------------------------
+[MemoryManager] CPU request [179], page [227], offset [10]
+[MemoryManager] Page [227] is on memory at frame [178]
+------------------------------------------
+[MemoryManager] CPU request [180], page [207], offset [37]
+[MemoryManager] Page [207] is on memory at frame [122]
+------------------------------------------
+[MemoryManager] CPU request [181], page [77], offset [118]
+[MemoryManager] Page [77] is on memory at frame [192]
+------------------------------------------
+[MemoryManager] CPU request [182], page [36], offset [106]
+[MemoryManager] Page [36] is on memory at frame [151]
+------------------------------------------
+[MemoryManager] CPU request [183], page [216], offset [71]
+[MemoryManager] Page [216] is on memory at frame [230]
+------------------------------------------
+[MemoryManager] CPU request [184], page [145], offset [39]
+[MemoryManager] Page [145] is on memory at frame [187]
+------------------------------------------
+[MemoryManager] CPU request [185], page [53], offset [8]
+[MemoryManager] Page [53] is on memory at frame [168]
+------------------------------------------
+[MemoryManager] CPU request [186], page [145], offset [2]
+[MemoryManager] Page [145] is on memory at frame [187]
+------------------------------------------
+[MemoryManager] CPU request [187], page [244], offset [14]
+[MemoryManager] Page [244] is on memory at frame [143]
+------------------------------------------
+[MemoryManager] CPU request [188], page [206], offset [87]
+[MemoryManager] Page [206] is on memory at frame [200]
+------------------------------------------
+[MemoryManager] CPU request [189], page [231], offset [70]
+[MemoryManager] Page [231] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [231]
+[MemoryManager] There is no free space to allocate page [231] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [139]
+[PageTable] pageReplacement, removing [139] of memory at frame [116]
+[PageTable] Added page [231] in memory at frame [116]
+------------------------------------------
+[MemoryManager] CPU request [190], page [152], offset [37]
+[MemoryManager] Page [152] is on memory at frame [133]
+------------------------------------------
+[MemoryManager] CPU request [191], page [167], offset [18]
+[MemoryManager] Page [167] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [167]
+[MemoryManager] There is no free space to allocate page [167] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [107]
+[PageTable] pageReplacement, removing [107] of memory at frame [222]
+[PageTable] Added page [167] in memory at frame [222]
+------------------------------------------
+[MemoryManager] CPU request [192], page [7], offset [84]
+[MemoryManager] Page [7] is on memory at frame [138]
+------------------------------------------
+[MemoryManager] CPU request [193], page [58], offset [126]
+[MemoryManager] Page [58] is on memory at frame [194]
+------------------------------------------
+[MemoryManager] CPU request [194], page [110], offset [4]
+[MemoryManager] Page [110] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [110]
+[MemoryManager] There is no free space to allocate page [110] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [136]
+[PageTable] pageReplacement, removing [136] of memory at frame [117]
+[PageTable] Added page [110] in memory at frame [117]
+------------------------------------------
+[MemoryManager] CPU request [195], page [112], offset [86]
+[MemoryManager] Page [112] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [112]
+[MemoryManager] There is no free space to allocate page [112] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [150]
+[PageTable] pageReplacement, removing [150] of memory at frame [118]
+[PageTable] Added page [112] in memory at frame [118]
+------------------------------------------
+[MemoryManager] CPU request [196], page [191], offset [73]
+[MemoryManager] Page [191] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [191]
+[MemoryManager] There is no free space to allocate page [191] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [185]
+[PageTable] pageReplacement, removing [185] of memory at frame [119]
+[PageTable] Added page [191] in memory at frame [119]
+------------------------------------------
+[MemoryManager] CPU request [197], page [8], offset [79]
+[MemoryManager] Page [8] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [8]
+[MemoryManager] There is no free space to allocate page [8] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [164]
+[PageTable] pageReplacement, removing [164] of memory at frame [120]
+[PageTable] Added page [8] in memory at frame [120]
+------------------------------------------
+[MemoryManager] CPU request [198], page [235], offset [39]
+[MemoryManager] Page [235] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [235]
+[MemoryManager] There is no free space to allocate page [235] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [6]
+[PageTable] pageReplacement, removing [6] of memory at frame [123]
+[PageTable] Added page [235] in memory at frame [123]
+------------------------------------------
+[MemoryManager] CPU request [199], page [80], offset [43]
+[MemoryManager] Page [80] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [80]
+[MemoryManager] There is no free space to allocate page [80] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [218]
+[PageTable] pageReplacement, removing [218] of memory at frame [125]
+[PageTable] Added page [80] in memory at frame [125]
+------------------------------------------
+[MemoryManager] CPU request [200], page [212], offset [81]
+[MemoryManager] Page [212] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [212]
+[MemoryManager] There is no free space to allocate page [212] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [196]
+[PageTable] pageReplacement, removing [196] of memory at frame [126]
+[PageTable] Added page [212] in memory at frame [126]
+------------------------------------------
+[MemoryManager] CPU request [201], page [53], offset [113]
+[MemoryManager] Page [53] is on memory at frame [168]
+------------------------------------------
+[MemoryManager] CPU request [202], page [247], offset [77]
+[MemoryManager] Page [247] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [247]
+[MemoryManager] There is no free space to allocate page [247] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [99]
+[PageTable] pageReplacement, removing [99] of memory at frame [214]
+[PageTable] Added page [247] in memory at frame [214]
+------------------------------------------
+[MemoryManager] CPU request [203], page [172], offset [37]
+[MemoryManager] Page [172] is on memory at frame [131]
+------------------------------------------
+[MemoryManager] CPU request [204], page [208], offset [121]
+[MemoryManager] Page [208] is on memory at frame [171]
+------------------------------------------
+[MemoryManager] CPU request [205], page [6], offset [77]
+[MemoryManager] Page [6] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [6]
+[MemoryManager] There is no free space to allocate page [6] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [114]
+[PageTable] pageReplacement, removing [114] of memory at frame [229]
+[PageTable] Added page [6] in memory at frame [229]
+------------------------------------------
+[MemoryManager] CPU request [206], page [238], offset [108]
+[MemoryManager] Page [238] is on memory at frame [215]
+------------------------------------------
+[MemoryManager] CPU request [207], page [84], offset [41]
+[MemoryManager] Page [84] is on memory at frame [234]
+------------------------------------------
+[MemoryManager] CPU request [208], page [17], offset [10]
+[MemoryManager] Page [17] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [17]
+[MemoryManager] There is no free space to allocate page [17] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [254]
+[PageTable] pageReplacement, removing [254] of memory at frame [128]
+[PageTable] Added page [17] in memory at frame [128]
+------------------------------------------
+[MemoryManager] CPU request [209], page [142], offset [101]
+[MemoryManager] Page [142] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [142]
+[MemoryManager] There is no free space to allocate page [142] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [233]
+[PageTable] pageReplacement, removing [233] of memory at frame [129]
+[PageTable] Added page [142] in memory at frame [129]
+------------------------------------------
+[MemoryManager] CPU request [210], page [106], offset [69]
+[MemoryManager] Page [106] is on memory at frame [221]
+------------------------------------------
+[MemoryManager] CPU request [211], page [74], offset [117]
+[MemoryManager] Page [74] is on memory at frame [206]
+------------------------------------------
+[MemoryManager] CPU request [212], page [133], offset [125]
+[MemoryManager] Page [133] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [133]
+[MemoryManager] There is no free space to allocate page [133] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [255]
+[PageTable] pageReplacement, removing [255] of memory at frame [130]
+[PageTable] Added page [133] in memory at frame [130]
+------------------------------------------
+[MemoryManager] CPU request [213], page [164], offset [64]
+[MemoryManager] Page [164] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [164]
+[MemoryManager] There is no free space to allocate page [164] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [39]
+[PageTable] pageReplacement, removing [39] of memory at frame [154]
+[PageTable] Added page [164] in memory at frame [154]
+------------------------------------------
+[MemoryManager] CPU request [214], page [232], offset [29]
+[MemoryManager] Page [232] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [232]
+[MemoryManager] There is no free space to allocate page [232] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [46]
+[PageTable] pageReplacement, removing [46] of memory at frame [161]
+[PageTable] Added page [232] in memory at frame [161]
+------------------------------------------
+[MemoryManager] CPU request [215], page [3], offset [97]
+[MemoryManager] Page [3] is on memory at frame [173]
+------------------------------------------
+[MemoryManager] CPU request [216], page [126], offset [23]
+[MemoryManager] Page [126] is on memory at frame [241]
+------------------------------------------
+[MemoryManager] CPU request [217], page [97], offset [103]
+[MemoryManager] Page [97] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [97]
+[MemoryManager] There is no free space to allocate page [97] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [82]
+[PageTable] pageReplacement, removing [82] of memory at frame [197]
+[PageTable] Added page [97] in memory at frame [197]
+------------------------------------------
+[MemoryManager] CPU request [218], page [188], offset [94]
+[MemoryManager] Page [188] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [188]
+[MemoryManager] There is no free space to allocate page [188] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [123]
+[PageTable] pageReplacement, removing [123] of memory at frame [238]
+[PageTable] Added page [188] in memory at frame [238]
+------------------------------------------
+[MemoryManager] CPU request [219], page [160], offset [85]
+[MemoryManager] Page [160] is on memory at frame [160]
+------------------------------------------
+[MemoryManager] CPU request [220], page [217], offset [33]
+[MemoryManager] Page [217] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [217]
+[MemoryManager] There is no free space to allocate page [217] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [183]
+[PageTable] pageReplacement, removing [183] of memory at frame [124]
+[PageTable] Added page [217] in memory at frame [124]
+------------------------------------------
+[MemoryManager] CPU request [221], page [152], offset [24]
+[MemoryManager] Page [152] is on memory at frame [133]
+------------------------------------------
+[MemoryManager] CPU request [222], page [182], offset [102]
+[MemoryManager] Page [182] is on memory at frame [163]
+------------------------------------------
+[MemoryManager] CPU request [223], page [222], offset [76]
+[MemoryManager] Page [222] is on memory at frame [162]
+------------------------------------------
+[MemoryManager] CPU request [224], page [74], offset [84]
+[MemoryManager] Page [74] is on memory at frame [206]
+------------------------------------------
+[MemoryManager] CPU request [225], page [169], offset [124]
+[MemoryManager] Page [169] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [169]
+[MemoryManager] There is no free space to allocate page [169] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [59]
+[PageTable] pageReplacement, removing [59] of memory at frame [174]
+[PageTable] Added page [169] in memory at frame [174]
+------------------------------------------
+[MemoryManager] CPU request [226], page [113], offset [53]
+[MemoryManager] Page [113] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [113]
+[MemoryManager] There is no free space to allocate page [113] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [24]
+[PageTable] pageReplacement, removing [24] of memory at frame [139]
+[PageTable] Added page [113] in memory at frame [139]
+------------------------------------------
+[MemoryManager] CPU request [227], page [193], offset [23]
+[MemoryManager] Page [193] is on memory at frame [169]
+------------------------------------------
+[MemoryManager] CPU request [228], page [90], offset [87]
+[MemoryManager] Page [90] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [90]
+[MemoryManager] There is no free space to allocate page [90] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [137]
+[PageTable] pageReplacement, removing [137] of memory at frame [140]
+[PageTable] Added page [90] in memory at frame [140]
+------------------------------------------
+[MemoryManager] CPU request [229], page [120], offset [97]
+[MemoryManager] Page [120] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [120]
+[MemoryManager] There is no free space to allocate page [120] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [129]
+[PageTable] pageReplacement, removing [129] of memory at frame [141]
+[PageTable] Added page [120] in memory at frame [141]
+------------------------------------------
+[MemoryManager] CPU request [230], page [249], offset [101]
+[MemoryManager] Page [249] is on memory at frame [134]
+------------------------------------------
+[MemoryManager] CPU request [231], page [45], offset [85]
+[MemoryManager] Page [45] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [45]
+[MemoryManager] There is no free space to allocate page [45] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [69]
+[PageTable] pageReplacement, removing [69] of memory at frame [184]
+[PageTable] Added page [45] in memory at frame [184]
+------------------------------------------
+[MemoryManager] CPU request [232], page [23], offset [111]
+[MemoryManager] Page [23] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [23]
+[MemoryManager] There is no free space to allocate page [23] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [11]
+[PageTable] pageReplacement, removing [11] of memory at frame [145]
+[PageTable] Added page [23] in memory at frame [145]
+------------------------------------------
+[MemoryManager] CPU request [233], page [59], offset [70]
+[MemoryManager] Page [59] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [59]
+[MemoryManager] There is no free space to allocate page [59] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [101]
+[PageTable] pageReplacement, removing [101] of memory at frame [216]
+[PageTable] Added page [59] in memory at frame [216]
+------------------------------------------
+[MemoryManager] CPU request [234], page [22], offset [0]
+[MemoryManager] Page [22] is on memory at frame [147]
+------------------------------------------
+[MemoryManager] CPU request [235], page [209], offset [7]
+[MemoryManager] Page [209] is on memory at frame [165]
+------------------------------------------
+[MemoryManager] CPU request [236], page [70], offset [17]
+[MemoryManager] Page [70] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [70]
+[MemoryManager] There is no free space to allocate page [70] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [205]
+[PageTable] pageReplacement, removing [205] of memory at frame [146]
+[PageTable] Added page [70] in memory at frame [146]
+------------------------------------------
+[MemoryManager] CPU request [237], page [177], offset [7]
+[MemoryManager] Page [177] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [177]
+[MemoryManager] There is no free space to allocate page [177] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [10]
+[PageTable] pageReplacement, removing [10] of memory at frame [137]
+[PageTable] Added page [177] in memory at frame [137]
+------------------------------------------
+[MemoryManager] CPU request [238], page [128], offset [33]
+[MemoryManager] Page [128] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [128]
+[MemoryManager] There is no free space to allocate page [128] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [83]
+[PageTable] pageReplacement, removing [83] of memory at frame [198]
+[PageTable] Added page [128] in memory at frame [198]
+------------------------------------------
+[MemoryManager] CPU request [239], page [168], offset [61]
+[MemoryManager] Page [168] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [168]
+[MemoryManager] There is no free space to allocate page [168] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [200]
+[PageTable] pageReplacement, removing [200] of memory at frame [148]
+[PageTable] Added page [168] in memory at frame [148]
+------------------------------------------
+[MemoryManager] CPU request [240], page [31], offset [24]
+[MemoryManager] Page [31] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [31]
+[MemoryManager] There is no free space to allocate page [31] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [76]
+[PageTable] pageReplacement, removing [76] of memory at frame [191]
+[PageTable] Added page [31] in memory at frame [191]
+------------------------------------------
+[MemoryManager] CPU request [241], page [54], offset [106]
+[MemoryManager] Page [54] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [54]
+[MemoryManager] There is no free space to allocate page [54] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [1]
+[PageTable] pageReplacement, removing [1] of memory at frame [150]
+[PageTable] Added page [54] in memory at frame [150]
+------------------------------------------
+[MemoryManager] CPU request [242], page [92], offset [45]
+[MemoryManager] Page [92] is on memory at frame [207]
+------------------------------------------
+[MemoryManager] CPU request [243], page [211], offset [0]
+[MemoryManager] Page [211] is on memory at frame [218]
+------------------------------------------
+[MemoryManager] CPU request [244], page [88], offset [95]
+[MemoryManager] Page [88] is on memory at frame [203]
+------------------------------------------
+[MemoryManager] CPU request [245], page [241], offset [2]
+[MemoryManager] Page [241] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [241]
+[MemoryManager] There is no free space to allocate page [241] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [195]
+[PageTable] pageReplacement, removing [195] of memory at frame [157]
+[PageTable] Added page [241] in memory at frame [157]
+------------------------------------------
+[MemoryManager] CPU request [246], page [98], offset [19]
+[MemoryManager] Page [98] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [98]
+[MemoryManager] There is no free space to allocate page [98] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [157]
+[PageTable] pageReplacement, removing [157] of memory at frame [158]
+[PageTable] Added page [98] in memory at frame [158]
+------------------------------------------
+[MemoryManager] CPU request [247], page [15], offset [60]
+[MemoryManager] Page [15] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [15]
+[MemoryManager] There is no free space to allocate page [15] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [55]
+[PageTable] pageReplacement, removing [55] of memory at frame [170]
+[PageTable] Added page [15] in memory at frame [170]
+------------------------------------------
+[MemoryManager] CPU request [248], page [80], offset [88]
+[MemoryManager] Page [80] is on memory at frame [125]
+------------------------------------------
+[MemoryManager] CPU request [249], page [132], offset [9]
+[MemoryManager] Page [132] is on memory at frame [212]
+------------------------------------------
+[MemoryManager] CPU request [250], page [192], offset [106]
+[MemoryManager] Page [192] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [192]
+[MemoryManager] There is no free space to allocate page [192] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [130]
+[PageTable] pageReplacement, removing [130] of memory at frame [166]
+[PageTable] Added page [192] in memory at frame [166]
+------------------------------------------
+[MemoryManager] CPU request [251], page [81], offset [29]
+[MemoryManager] Page [81] is on memory at frame [196]
+------------------------------------------
+[MemoryManager] CPU request [252], page [146], offset [18]
+[MemoryManager] Page [146] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [146]
+[MemoryManager] There is no free space to allocate page [146] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [181]
+[PageTable] pageReplacement, removing [181] of memory at frame [172]
+[PageTable] Added page [146] in memory at frame [172]
+------------------------------------------
+[MemoryManager] CPU request [253], page [242], offset [31]
+[MemoryManager] Page [242] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [242]
+[MemoryManager] There is no free space to allocate page [242] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [163]
+[PageTable] pageReplacement, removing [163] of memory at frame [175]
+[PageTable] Added page [242] in memory at frame [175]
+------------------------------------------
+[MemoryManager] CPU request [254], page [103], offset [63]
+[MemoryManager] Page [103] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [103]
+[MemoryManager] There is no free space to allocate page [103] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [223]
+[PageTable] pageReplacement, removing [223] of memory at frame [176]
+[PageTable] Added page [103] in memory at frame [176]
+------------------------------------------
+[MemoryManager] CPU request [255], page [215], offset [54]
+[MemoryManager] Page [215] is not in memory
+[SecondaryMemory] SearchPageOnSecondaryMemory, pageIndex = [215]
+[MemoryManager] There is no free space to allocate page [215] in ram, calling pageReplacement algorithm
+[MemoryManager] Last recently used is page [64]
+[PageTable] pageReplacement, removing [64] of memory at frame [179]
+[PageTable] Added page [215] in memory at frame [179]
+------------------------------------------
+[MemoryManager] CPU request [256], page [222], offset [51]
+[MemoryManager] Page [222] is on memory at frame [162]
+------------------------------------------
+STATISTICS
+------------------------------------------
+[MemoryManager] Amount of CPU page requests: 256
+[MemoryManager] Amount of frames allocated on RAM: 128
+[MemoryManager] Amount of Page Faults: 265
+[MemoryManager] Amount of Page Faults (Excluding initial allocation): 137
+[MemoryManager] Amount of Page Replacements: 137
+[MemoryManager] Amount of Searches on Secondary Memory: 265
+[MemoryManager] Amount of Searches on Secondary Memory (Excluding initial allocation): 137
+[MemoryManager] Amount of Times Page on Memory: 119
+------------------------------------------
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 18s
+5 actionable tasks: 1 executed, 4 up-to-date
