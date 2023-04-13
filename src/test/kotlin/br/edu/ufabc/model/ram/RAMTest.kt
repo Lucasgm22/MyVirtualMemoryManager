@@ -17,8 +17,8 @@ class RAMTest {
 
     @Test
     fun createRAM() {
-        assertEquals(3, ram.frames.size)
-        ram.frames.forEach {
+        assertEquals(3, ram.frameAllocation.size)
+        ram.frameAllocation.forEach {
             assertNull(it)
         }
     }

@@ -5,7 +5,10 @@ import br.edu.ufabc.model.pagetable.PageTable
 import br.edu.ufabc.model.ram.RAM
 import br.edu.ufabc.model.secondary.SecondaryMemory
 
-val offsets = 128
+const val offsets = 128
+const val simpleName = "MemoryManager"
+const val horizontalLine = "------------------------------------------"
+
 var pageCount: Int = 256
 var ramFrameCount: Int? = null
 lateinit var ram: RAM
@@ -16,13 +19,16 @@ lateinit var pageTable: PageTable
 val secondaryMemory = SecondaryMemory()
 
 var amountOfCpuPageRequests: Int? = null
-
-
-val simpleName = "MemoryManager"
+var amountOfPageFaults = 0
+var amountOfPageReplacements = 0
+var amountOfSearchesOnSecondaryMemory = 0
+var amountOfTimesPageInMemory = 0
 
 fun main(args: Array<String>) {
 
     init(args)
+    println("CPU REQUESTS")
+    println(horizontalLine)
 
     for (i in 1..amountOfCpuPageRequests!!) {
         val pageIndex: Int = (0 until pageTable.pageCount).random() // PAGE AND OFFSET THAT WILL BE REQUESTED
@@ -31,44 +37,59 @@ fun main(args: Array<String>) {
         var cpuRequestedPage: ArrayList<Int>?
         var frameIndex: Int?
 
-        // ADD TO LRU AND RETURN LAST RECENTLY USED
+        println("[$simpleName] CPU request [$i], page [$pageIndex], offset [$offset]")
         val pageIndexLRU = lru.addOnLRU(pageIndex)
 
         if (pageTable.getValidBitByPage(pageIndex)) {
-            // PAGE IS ON MEMORY
+            amountOfTimesPageInMemory++
             frameIndex = pageTable.getFrameByPage(pageIndex)
+            println("[$simpleName] Page [$pageIndex] is on memory at frame [$frameIndex]")
         } else {
-            // PAGE IS NOT IN MEMORY
-            // SEARCH ON SECONDARY MEMORY
+            amountOfPageFaults++
+            println("[$simpleName] Page [$pageIndex] is not in memory")
             val requestedPage = secondaryMemory.searchPage(pageIndex)
             if (ram.isFull()) {
-                // TAKE LRU AND REMOVE FROM RAM
+                amountOfPageReplacements++
+                println("[$simpleName] There is no free space to allocate page [$pageIndex] in ram, calling pageReplacement algorithm")
                 frameIndex = pageTable.getFrameByPage(pageIndexLRU)
-                ram.frames[frameIndex] = requestedPage
+                ram.frameAllocation[frameIndex] = requestedPage
                 pageTable.removePageEntry(pageIndexLRU)
             } else {
-                // ADD PAGE ON RAM
+                println("[$simpleName] There is free space to allocate page [$pageIndex] in memory")
                 frameIndex = ram.addPage(requestedPage)
             }
             pageTable.addFrameOnPageEntry(pageIndex, frameIndex)
         }
-        cpuRequestedPage = ram.frames[frameIndex]
+        cpuRequestedPage = ram.frameAllocation[frameIndex]
         assert(cpuRequestedPage != null)
         assert(cpuRequestedPage?.get(offset) == 0 || cpuRequestedPage?.get(offset) == 1)
         // deliver the page to the CPU with offset
+        println(horizontalLine)
     }
+    println("STATISTICS")
+    println(horizontalLine)
+    println("[$simpleName] Amount of CPU page requests: $amountOfCpuPageRequests")
+    println("Amount of Page Faults: $amountOfPageFaults")
+    println("Amount of Page Replacements: $amountOfPageReplacements")
+    println("Amount of Searches on Secondary Memory: $amountOfSearchesOnSecondaryMemory")
+    println("Amount of Times Page on Memory: $amountOfTimesPageInMemory")
+    println(horizontalLine)
 }
 
 private fun init(args: Array<String>) {
     assert(args.size == 2)
     ramFrameCount = args[0].toInt()
-    assert(ramFrameCount!! > 0)
+    if (ramFrameCount!! <= 0 || ramFrameCount!! > 256) throw IllegalStateException("Ram Allocation must be between 1 and 256 frames, receive $ramFrameCount")
     amountOfCpuPageRequests = args[1].toInt()
-    assert(amountOfCpuPageRequests!! > 0)
+    if (amountOfCpuPageRequests!! <= 0) throw IllegalStateException("CPU requests must be greater than 0, received $amountOfCpuPageRequests")
 
     ram = RAM(frameCount = ramFrameCount!!)
     pageTable = PageTable(pageCount = pageCount)
     lru = LRU(frameCount = ramFrameCount!!)
-    println("[$simpleName] amount of frames on RAM: ${ram.frameCount}")
-    println("[$simpleName] amount of CPU page requests: $amountOfCpuPageRequests")
+    println(horizontalLine)
+    println("CONFIGS")
+    println(horizontalLine)
+    println("[$simpleName] Amount of frames on RAM: ${ram.frameCount}")
+    println("[$simpleName] Amount of CPU page requests: $amountOfCpuPageRequests")
+    println(horizontalLine)
 }

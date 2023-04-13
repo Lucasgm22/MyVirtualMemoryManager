@@ -1,5 +1,6 @@
 package br.edu.ufabc.model.secondary
 
+import br.edu.ufabc.amountOfSearchesOnSecondaryMemory
 import com.beust.klaxon.Klaxon
 
 class SecondaryMemory {
@@ -9,7 +10,8 @@ class SecondaryMemory {
     }
 
     fun searchPage(pageIndex: Int): ArrayList<Int> {
-        println("[${javaClass.simpleName}] searchPageOnSecondaryMemory, pageIndex = [${pageIndex}]")
+        amountOfSearchesOnSecondaryMemory++
+        println("[${javaClass.simpleName}] SearchPageOnSecondaryMemory, pageIndex = [${pageIndex}]")
         object {}.javaClass.getResourceAsStream(pagesPath)?.use {
             return Klaxon().parseArray<ArrayList<Int>>(it)?.get(pageIndex)
                 ?: throw IllegalArgumentException("Page not found in secondary memory")

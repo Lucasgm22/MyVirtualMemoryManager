@@ -14,10 +14,12 @@ class PageTable(val entries: ArrayList<PageEntry> = ArrayList(), val pageCount: 
 
 
     fun removePageEntry(pageIndex: Int) {
+        println("[${javaClass.simpleName}] pageReplacement, removing [$pageIndex] of memory at frame [${entries[pageIndex].frameIndex}]")
         entries[pageIndex].validInvalidBit = false
     }
 
     fun addFrameOnPageEntry(pageIndex: Int, frameIndex: Int) {
+        println("[${javaClass.simpleName}] Added page [$pageIndex] in memory at frame [$frameIndex]")
         entries[pageIndex].frameIndex = frameIndex
         entries[pageIndex].validInvalidBit = true
     }
