@@ -11,14 +11,12 @@ class LRU(val entries: ArrayList<Int> = ArrayList(), val frameCount: Int) {
             return entries.first()
         }
 
-        if (entries.size < frameCount) {
+        return if (entries.size < frameCount) {
             entries.add(pageIndex)
-            return entries.first()
+            entries.first()
         } else {
             entries.add(pageIndex)
-            return entries.removeFirst()
+            entries.removeFirst()
         }
     }
-
-    fun getLastRecentUsed() = entries.first()
 }
