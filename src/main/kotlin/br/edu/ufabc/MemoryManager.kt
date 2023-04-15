@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
     init(args)
     println("INITIAL ALLOCATION OF PAGES SEQUENTIALLY")
     println(horizontalLine)
-    frameAllocation()
+    searchPageAndOffset()
     println(horizontalLine)
 
     println("CPU REQUESTS")
@@ -43,7 +43,7 @@ fun main(args: Array<String>) {
         val offset: Int = (0 until offsets).random()
 
         println("[$simpleName] CPU request [$i], page [$pageIndex], offset [$offset]")
-        frameAllocation(pageIndex, offset)
+        searchPageAndOffset(pageIndex, offset)
         println(horizontalLine)
     }
     printStats()
@@ -61,7 +61,7 @@ private fun printStats() {
     println(horizontalLine)
 }
 
-private fun frameAllocation(pageIndex: Int, offset: Int) {
+private fun searchPageAndOffset(pageIndex: Int, offset: Int) {
 
     val frameIndex: Int
 
@@ -95,11 +95,11 @@ private fun frameAllocation(pageIndex: Int, offset: Int) {
     // deliver the page to the CPU with offset
 }
 
-private fun frameAllocation() {
+private fun searchPageAndOffset() {
     initialFrame = (0 ..  ramFrameSize - ramProcessFrameCount!!).random()
     println("[$simpleName] Allocation will be on frames [$initialFrame.. ${initialFrame + ramProcessFrameCount!! - 1}] sequentially")
     for (i in 0 until ramProcessFrameCount!!) {
-        frameAllocation(i, 0)
+        searchPageAndOffset(i, 0)
     }
 }
 
