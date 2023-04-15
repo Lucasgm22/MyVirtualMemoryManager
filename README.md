@@ -178,6 +178,7 @@ stateDiagram-v2
     upt: Update Page Table with availble frame on page requested
     gfopt: Get Frame index on Page Table
     glpor: Get Loaded Page on RAM
+    ps: Print Statistcs
     state if_state <<choice>>
     state if_state2 <<choice>>
     [*] --> irlp
@@ -205,5 +206,7 @@ stateDiagram-v2
         glpor -->[*]
     }
 
-    GetPage --> [*]
+    GetPage --> ps
+    ps --> [*]
+
 ```
