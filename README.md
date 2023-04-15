@@ -176,6 +176,7 @@ stateDiagram-v2
     ilrup: Invalidate Last Recently Used Page
     afor: Add page on RAM
     upt: Update Page Table with availble frame on page requested
+    gfopt: Get Frame index on Page Table
     state if_state <<choice>>
     state if_state2 <<choice>>
     [*] --> irlp
@@ -185,7 +186,8 @@ stateDiagram-v2
         [*] --> ulrgtlru
         ulrgtlru --> pon
         pon --> if_state
-        if_state --> [*]: true
+        if_state --> gfopt
+        gfopt --> [*]
         if_state --> sposm: false
         sposm --> hfsor
         hfsor --> if_state2
