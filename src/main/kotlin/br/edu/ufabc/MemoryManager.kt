@@ -56,8 +56,7 @@ private fun printStats() {
     println("[$simpleName] Amount of frames allocated on RAM: $ramProcessFrameCount")
     println("[$simpleName] Amount of Page Faults: ${amountOfPageFaults - ramProcessFrameCount!!}")
     println("[$simpleName] Amount of Page Replacements: $amountOfPageReplacements")
-    println("[$simpleName] Amount of Searches on Secondary Memory: $amountOfSearchesOnSecondaryMemory")
-    println("[$simpleName] Amount of Searches on Secondary Memory (Excluding initial allocation): ${amountOfSearchesOnSecondaryMemory - ramProcessFrameCount!!}")
+    println("[$simpleName] Amount of Searches on Secondary Memory: ${amountOfSearchesOnSecondaryMemory - ramProcessFrameCount!!}")
     println("[$simpleName] Amount of Times Page on Memory: $amountOfTimesPageInMemory")
     println(horizontalLine)
 }
