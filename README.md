@@ -162,7 +162,7 @@ stateDiagram-v2
     s --> [*]
 ```
 ### MemoryManager
-Classe principal do projeto, contêm a função \textit{main}, ponto inicial do programa, segue o diagrama da execução:
+Classe principal do projeto, contêm a função `main`, ponto inicial do programa, segue o diagrama da execução:
 
 ```mermaid
 stateDiagram-v2
@@ -177,6 +177,7 @@ stateDiagram-v2
     afor: Add page on RAM
     upt: Update Page Table with availble frame on page requested
     gfopt: Get Frame index on Page Table
+    glpor: Get Loaded Page on RAM
     state if_state <<choice>>
     state if_state2 <<choice>>
     [*] --> irlp
@@ -187,12 +188,12 @@ stateDiagram-v2
         ulrgtlru --> pon
         pon --> if_state
         if_state --> gfopt
-        gfopt --> [*]
+        gfopt --> glpor
         if_state --> sposm: false
         sposm --> hfsor
         hfsor --> if_state2
         if_state2 --> upt: true
-        afor --> [*]
+        afor --> glpor
         if_state2 --> FrameReplacement: false
         state FrameReplacement {
             [*] --> rlrufr
@@ -201,7 +202,7 @@ stateDiagram-v2
         }
         FrameReplacement --> upt
         upt --> afor
-
+        glpor -->[*]
     }
 
     GetPage --> [*]
